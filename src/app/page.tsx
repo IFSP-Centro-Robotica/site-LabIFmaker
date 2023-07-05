@@ -1,4 +1,5 @@
 import { HeaderComponent } from "@/components/global/Header";
+import { AboutHome } from "@/components/pages/Home/About";
 import { OpeningHome } from "@/components/pages/Home/Opening";
 import { SliderHome } from "@/components/pages/Home/Slider";
 import Image from "next/image";
@@ -9,6 +10,7 @@ export default function Home() {
       <HeaderComponent />
       <OpeningHome />
       <SliderHome />
+      <AboutHome />
     </main>
   );
 }
