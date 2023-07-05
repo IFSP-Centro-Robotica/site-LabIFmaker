@@ -1,3 +1,4 @@
+import { FooterComponent } from "@/components/global/Footer";
 import { HeaderComponent } from "@/components/global/Header";
 import { AboutHome } from "@/components/pages/Home/About";
 import { OpeningHome } from "@/components/pages/Home/Opening";
@@ -13,6 +14,7 @@ export default function Home() {
       <SliderHome />
       <AboutHome />
       <ScheduleHome />
+      <FooterComponent />
     </main>
   );
 }
