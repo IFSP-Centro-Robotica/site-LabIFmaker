@@ -1,6 +1,6 @@
 import Image from "next/image";
 import background from "@/assets/OpeningFundo.png";
-import { Lightbulb } from "lucide-react";
+import { ArchiveRestore, Lightbulb, Wrench } from "lucide-react";
 
 export const AboutHome = () => {
     return (
@@ -31,8 +31,8 @@ export const AboutHome = () => {
                 </div>
                 <div className="w-full flex flex-col gap-12">
                     <div className="w-full flex sm:flex-row flex-col sm:border-none border-b pb-8 border-spacing-1 border-black gap-4 items-center justify-center">
-                        <div className="rounded-[50%] border border-spacing-1 border-black flex items-center justify-center p-4 ">
-                            <Lightbulb size={60} />
+                        <div className="rounded-[50%] border border-spacing-1 border-zinc-400 flex items-center justify-center p-4 hover:bg-zinc-200 transition-colors">
+                            <Lightbulb size={60} className="text-primary "/>
                         </div>
                         <p className="font-montserrat text-xl text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -42,8 +42,8 @@ export const AboutHome = () => {
                         </p>
                     </div>
                     <div className="w-full flex sm:flex-row flex-col sm:border-none border-b pb-8 border-spacing-1 border-black gap-4 items-center justify-center">
-                        <div className="rounded-[50%] border border-spacing-1 border-black flex items-center justify-center p-4 ">
-                            <Lightbulb size={60} />
+                        <div className="rounded-[50%] border border-spacing-1 border-zinc-400 flex items-center justify-center p-4 hover:bg-zinc-200 transition-colors">
+                            <ArchiveRestore size={60} className="text-primary "/>
                         </div>
                         <p className="font-montserrat text-xl text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -53,8 +53,8 @@ export const AboutHome = () => {
                         </p>
                     </div>
                     <div className="w-full flex sm:flex-row flex-col  pb-8 border-spacing-1 border-black gap-4 items-center justify-center">
-                        <div className="rounded-[50%] border border-spacing-1 border-black flex items-center justify-center p-4 ">
-                            <Lightbulb size={60} />
+                        <div className="rounded-[50%] border border-spacing-1 border-zinc-400 flex items-center justify-center p-4 hover:bg-zinc-200 transition-colors">
+                            <Wrench size={60} className="text-primary "/>
                         </div>
                         <p className="font-montserrat text-xl text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
