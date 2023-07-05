@@ -4,7 +4,7 @@ import { Lightbulb } from "lucide-react";
 
 export const AboutHome = () => {
     return (
-        <section className="w-full xl:h-[900px] xl:flex-row h-auto flex flex-col gap-12 items-center justify-center pt-4 pb-4 pr-12 pl-12 mt-4">
+        <section className="w-full xl:h-[900px] xl:flex-row h-auto flex flex-col gap-12 items-center justify-center pt-4 pb-4 sm:pr-12 sm:pl-12 pr-6 pl-6 mt-4">
             <div className="w-full h-full">
                 <Image
                     src={background}
@@ -14,9 +14,9 @@ export const AboutHome = () => {
             </div>
             <div className="w-full h-full rounded flex flex-col gap-12">
                 <div className="w-full flex flex-col gap-8">
-                    <h1 className="font-montserrat font-bold text-6xl">
+                    <h1 className="font-montserrat font-bold sm:text-6xl text-5xl">
                         O que é o Lab
-                        <span className="text-primary">IF</span> Maker
+                        <span className="text-primary">IF</span> Maker?
                     </h1>
                     <p className="font-montserrat text-xl text-justify">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -29,8 +29,8 @@ export const AboutHome = () => {
                         Maecenas vitae viverra odio.
                     </p>
                 </div>
-                <div className="w-full flex flex-col gap-8">
-                    <div className="w-full flex flex-row gap-4 items-center justify-center">
+                <div className="w-full flex flex-col gap-12">
+                    <div className="w-full flex sm:flex-row flex-col sm:border-none border-b pb-8 border-spacing-1 border-black gap-4 items-center justify-center">
                         <div className="rounded-[50%] border border-spacing-1 border-black flex items-center justify-center p-4 ">
                             <Lightbulb size={60} />
                         </div>
@@ -41,7 +41,7 @@ export const AboutHome = () => {
                             sed eleifend porttitor. Etiam nec ante egestas,{" "}
                         </p>
                     </div>
-                    <div className="w-full flex flex-row gap-4 items-center justify-center">
+                    <div className="w-full flex sm:flex-row flex-col sm:border-none border-b pb-8 border-spacing-1 border-black gap-4 items-center justify-center">
                         <div className="rounded-[50%] border border-spacing-1 border-black flex items-center justify-center p-4 ">
                             <Lightbulb size={60} />
                         </div>
@@ -52,7 +52,7 @@ export const AboutHome = () => {
                             sed eleifend porttitor. Etiam nec ante egestas,{" "}
                         </p>
                     </div>
-                    <div className="w-full flex flex-row gap-4 items-center justify-center">
+                    <div className="w-full flex sm:flex-row flex-col  pb-8 border-spacing-1 border-black gap-4 items-center justify-center">
                         <div className="rounded-[50%] border border-spacing-1 border-black flex items-center justify-center p-4 ">
                             <Lightbulb size={60} />
                         </div>
