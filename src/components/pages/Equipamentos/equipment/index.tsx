@@ -5,7 +5,7 @@ export const EquipamentEquipamentos = () => {
     return (
         <section className="w-full flex flex-row pr-4 pl-4 pt-8 pb-8 flex-wrap gap-8 items-center justify-center">
             {equipamentFields.map((equipament) => (
-                <div className="max-w-[380px] bg-zinc-100 p-6 rounded border border-spacing-1 border-primary transition flex flex-col gap-4 hover:shadow-2xl">
+                <div key={equipament.href} className="max-w-[380px] bg-zinc-100 p-6 rounded border border-spacing-1 border-primary transition flex flex-col gap-4 hover:shadow-2xl">
                     <h1 className="text-2xl font-montserrat font-bold text-primary">
                         {equipament.title}
                     </h1>
