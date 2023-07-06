@@ -1,9 +1,19 @@
+import { FooterComponent } from "@/components/global/Footer";
+import { HeaderComponent } from "@/components/global/Header";
 import { InfoEquipamentosIndividual } from "@/components/pages/Equipamentos/[slug]/Info";
 
-export default function EquipamentIndividual({ params }: { params: { slug: string } }) {
+export default function EquipamentIndividual({
+  params,
+}: {
+  params: { slug: string };
+}) {
   return (
     <main className="overflow-x-hidden ">
-      <InfoEquipamentosIndividual slug={params.slug}  />
+      <HeaderComponent />
+      <div className="min-h-common">
+        <InfoEquipamentosIndividual slug={params.slug} />
+      </div>
+      <FooterComponent />
     </main>
   );
 }
