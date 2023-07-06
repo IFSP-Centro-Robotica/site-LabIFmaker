@@ -51,10 +51,10 @@ export const ResourcesEquipamentos = () => {
                     ))}
                 </div>
                 {isShow == "h-[300px]" && (
-                    <div className="w-full bg-primary-light/400 absolute left-0 bottom-0 p-4 flex items-center justify-center shadow-primary-light/400 shadow-3xl">
+                    <div className="w-full bg-zinc-200 absolute left-0 bottom-0 p-4 flex items-center justify-center shadow-zinc-200 shadow-3xl">
                         {" "}
                         <button
-                            className="text-white font-montserrat font-bold text-2xl bg-primary-light-500 p-2 rounded"
+                            className="text-white font-montserrat font-bold text-2xl bg-primary transition-colors hover:bg-primary-light-200 p-2 rounded"
                             onClick={() => setIsShow("")}
                         >
                             Ver mais...
@@ -65,7 +65,7 @@ export const ResourcesEquipamentos = () => {
                     <div className="w-full-light/400 absolute left-0 bottom-0 p-2 flex items-center justify-center">
                         {" "}
                         <button
-                            className="text-white font-montserrat font-bold text-xl bg-primary-light-500 p-2 rounded"
+                            className="text-white font-montserrat font-bold text-xl bg-primary transition-colors hover:bg-primary-light-200 p-2 rounded"
                             onClick={() => setIsShow("h-[300px]")}
                         >
                             Esconder
