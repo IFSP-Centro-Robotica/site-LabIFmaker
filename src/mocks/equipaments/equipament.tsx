@@ -62,4 +62,137 @@ export const equipamentFields: IEquipamentFields[] = [
       },
     ],
   },
+  {
+    title: "Arduino",
+    slug: "arduino",
+    image: () => (
+      <Image src={arduino} alt="arduino" className={equipamentStyle} />
+    ),
+    description: `O Arduino é uma plataforma de prototipagem eletrônica de
+                    código aberto amplamente utilizada por entusiastas,
+                    hobistas, estudantes e profissionais da área de eletrônica e
+                    programação.`,
+    content: [
+      {
+        brand: {
+          title: "Marca: ",
+          brand: "Arduino",
+        },
+      },
+    ],
+  },
+  {
+    title: "Arduino",
+    slug: "arduino",
+    image: () => (
+      <Image src={arduino} alt="arduino" className={equipamentStyle} />
+    ),
+    description: `O Arduino é uma plataforma de prototipagem eletrônica de
+                    código aberto amplamente utilizada por entusiastas,
+                    hobistas, estudantes e profissionais da área de eletrônica e
+                    programação.`,
+    content: [
+      {
+        brand: {
+          title: "Marca: ",
+          brand: "Arduino",
+        },
+      },
+    ],
+  },
+  {
+    title: "Arduino",
+    slug: "arduino",
+    image: () => (
+      <Image src={arduino} alt="arduino" className={equipamentStyle} />
+    ),
+    description: `O Arduino é uma plataforma de prototipagem eletrônica de
+                    código aberto amplamente utilizada por entusiastas,
+                    hobistas, estudantes e profissionais da área de eletrônica e
+                    programação.`,
+    content: [
+      {
+        brand: {
+          title: "Marca: ",
+          brand: "Arduino",
+        },
+      },
+    ],
+  },
+  {
+    title: "Arduino",
+    slug: "arduino",
+    image: () => (
+      <Image src={arduino} alt="arduino" className={equipamentStyle} />
+    ),
+    description: `O Arduino é uma plataforma de prototipagem eletrônica de
+                    código aberto amplamente utilizada por entusiastas,
+                    hobistas, estudantes e profissionais da área de eletrônica e
+                    programação.`,
+    content: [
+      {
+        brand: {
+          title: "Marca: ",
+          brand: "Arduino",
+        },
+      },
+    ],
+  },
+  {
+    title: "Arduino",
+    slug: "arduino",
+    image: () => (
+      <Image src={arduino} alt="arduino" className={equipamentStyle} />
+    ),
+    description: `O Arduino é uma plataforma de prototipagem eletrônica de
+                    código aberto amplamente utilizada por entusiastas,
+                    hobistas, estudantes e profissionais da área de eletrônica e
+                    programação.`,
+    content: [
+      {
+        brand: {
+          title: "Marca: ",
+          brand: "Arduino",
+        },
+      },
+    ],
+  },
+  {
+    title: "Arduino",
+    slug: "arduino",
+    image: () => (
+      <Image src={arduino} alt="arduino" className={equipamentStyle} />
+    ),
+    description: `O Arduino é uma plataforma de prototipagem eletrônica de
+                    código aberto amplamente utilizada por entusiastas,
+                    hobistas, estudantes e profissionais da área de eletrônica e
+                    programação.`,
+    content: [
+      {
+        brand: {
+          title: "Marca: ",
+          brand: "Arduino",
+        },
+      },
+    ],
+  },
+  {
+    title: "Arduino",
+    slug: "arduino",
+    image: () => (
+      <Image src={arduino} alt="arduino" className={equipamentStyle} />
+    ),
+    description: `O Arduino é uma plataforma de prototipagem eletrônica de
+                    código aberto amplamente utilizada por entusiastas,
+                    hobistas, estudantes e profissionais da área de eletrônica e
+                    programação.`,
+    content: [
+      {
+        brand: {
+          title: "Marca: ",
+          brand: "Arduino",
+        },
+      },
+    ],
+  },
 ];
