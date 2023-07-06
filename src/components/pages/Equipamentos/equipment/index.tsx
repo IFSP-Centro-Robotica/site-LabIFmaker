@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { equipamentFields } from "@/mocks/equipaments/equipament";
+import Image from "next/image";
+
+const equipamentStyle = "rounded border border-spacing-1 border-zinc-500";
 
 export const EquipamentEquipamentos = () => {
   return (
@@ -12,7 +15,15 @@ export const EquipamentEquipamentos = () => {
           <h1 className="text-2xl font-montserrat font-bold text-primary">
             {equipament.title}
           </h1>
-          {<equipament.image />}
+          <Image
+            src={equipament.image.src}
+            alt={equipament.image.alt}
+            className={
+              equipament.image.className
+                ? equipament.image.className
+                : equipamentStyle
+            }
+          />
           <p className="text-lg font-montserrat text-zinc-800 text-justify">
             {equipament.description}
           </p>
