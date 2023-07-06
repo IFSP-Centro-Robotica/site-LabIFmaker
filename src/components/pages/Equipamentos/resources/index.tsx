@@ -6,6 +6,7 @@ import { resourcesFields } from "./resources";
 export const ResourcesEquipamentos = () => {
     const [width, setWidth] = useState<number>();
     const [isShow, setIsShow] = useState<"h-[300px]" | "">("");
+    const [isShowResource, setIsShowResource] = useState<"hidden" | "">()
 
     useEffect(() => {
         const handleResize = () => {
@@ -23,8 +24,10 @@ export const ResourcesEquipamentos = () => {
         setWidth(window.innerWidth);
         if ((width && width < 640) || window.innerWidth < 640) {
             setIsShow("h-[300px]");
+            setIsShowResource("hidden")
         } else {
             setIsShow("");
+            setIsShowResource("")
         }
     }, []);
 
@@ -33,15 +36,15 @@ export const ResourcesEquipamentos = () => {
             className={`bg-zinc-100 w-full flex items-center justify-center flex-col gap-4 p-8 relative overflow-hidden ${isShow}`}
         >
             <div className="w-full flex items-center justify-center ">
-                <h1 className="bg-[#cbfcbb] text-primary pt-1 pb-1 pr-3 pl-3 rounded-full text-xl font-ubuntu border border-spacing-1 border-primary tracking-tighter uppercase">
+                <h1 className="bg-[#cbfcbb] text-primary pt-1 pb-1 pr-3 pl-3 mt-2 rounded-full text-xl font-ubuntu border border-spacing-1 border-primary tracking-tighter uppercase">
                     Recursos
                 </h1>
             </div>
             <div>
                 <div className="w-full grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 flex-wrap sm:gap-4 gap-8  justify-around">
-                    {resourcesFields.map((resource) => (
+                    {resourcesFields.map((resource, index) => (
                         <>
-                            <div key={resource.description} className="w-full flex xl:flex-row flex-col xl:text-start text-center gap-4 items-center hover:bg-primary-light/800 transition-colors rounded p-4 cursor-default sm:border-none border-b border-primary">
+                            <div key={resource.description} className={`w-full flex xl:flex-row flex-col xl:text-start text-center gap-4 items-center hover:bg-primary-light/800 transition-colors rounded p-4 cursor-default sm:border-none border-b border-primary ${isShowResource && index > 1 ? isShowResource : ""}`}>
                                 <resource.icon />
                                 <p className="sm:text-2xl text-xl font-montserrat">
                                     {resource.description}
@@ -55,7 +58,7 @@ export const ResourcesEquipamentos = () => {
                         {" "}
                         <button
                             className="text-white font-montserrat font-bold text-2xl bg-primary transition-colors hover:bg-primary-light-200 p-2 rounded"
-                            onClick={() => setIsShow("")}
+                            onClick={() => {setIsShow(""); setIsShowResource("")}}
                         >
                             Ver mais...
                         </button>
@@ -66,7 +69,7 @@ export const ResourcesEquipamentos = () => {
                         {" "}
                         <button
                             className="text-white font-montserrat font-bold text-xl bg-primary transition-colors hover:bg-primary-light-200 p-2 rounded"
-                            onClick={() => setIsShow("h-[300px]")}
+                            onClick={() => {setIsShow("h-[300px]"); setIsShowResource("hidden")}}
                         >
                             Esconder
                         </button>
