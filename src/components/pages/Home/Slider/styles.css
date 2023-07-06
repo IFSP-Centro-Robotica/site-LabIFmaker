@@ -1,86 +1,90 @@
 #app {
-    height: 100%;
+  height: 100%;
 }
 html,
 body {
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: 100%;
 }
 
 body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
+  background: #eee;
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
 root {
-    --swiper-theme-color: #1d7300 !important;
+  --swiper-theme-color: #1d7300 !important;
 }
 
 .swiper {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #1d730077;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.092);
+  width: 100%;
+  height: 100%;
+  border: 1px solid #1d730077;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.092);
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .swiper-button-prev::after,
 .swiper-button-disabled::after {
-    color: transparent;
-    background: url("../../../../assets/Icons/ArrowLeft.png") !important;
-    background-repeat: no-repeat !important;
-    background-size: 100% !important;
-    padding: 0px 11px;
-    border-radius: 50%;
-    border: 1px solid #1d7300;
-    margin-left: 10px;
-    user-select: none;
+  color: transparent;
+  background: url("../../../../assets/Icons/ArrowLeft.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  padding: 0px 11px;
+  border-radius: 50%;
+  border: 1px solid #1d7300;
+  margin-left: 10px;
+  user-select: none;
 }
 .swiper-button-next::after,
 .swiper-button-disabled::before {
-    color: transparent;
-    background: url("../../../../assets/Icons/ArrowRight.png") !important;
-    background-repeat: no-repeat !important;
-    background-size: 100% !important;
-    padding: 0px 11px;
-    border-radius: 50%;
-    border: 1px solid #1d7300;
-    margin-right: 10px;
-    user-select: none;
+  color: transparent;
+  background: url("../../../../assets/Icons/ArrowRight.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  padding: 0px 11px;
+  border-radius: 50%;
+  border: 1px solid #1d7300;
+  margin-right: 10px;
+  user-select: none;
 }
 
 @media (max-width: 640px) {
-    .swiper-button-prev::after,
-    .swiper-button-disabled::after {
-        display: none;
-    }
-    .swiper-button-next::after,
-    .swiper-button-disabled::before {
-        display: none;
-    }
+  .swiper-button-prev::after,
+  .swiper-button-disabled::after {
+    display: none;
+  }
+  .swiper-button-next::after,
+  .swiper-button-disabled::before {
+    display: none;
+  }
 }
 .swiper-pagination-bullet-active {
-    background: #1d7300 !important;
+  background: #1d7300 !important;
 }

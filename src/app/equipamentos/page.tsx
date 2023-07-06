@@ -4,14 +4,14 @@ import { EquipamentEquipamentos } from "@/components/pages/Equipamentos/equipmen
 import { ResourcesEquipamentos } from "@/components/pages/Equipamentos/resources";
 
 export default function Equipmaentos() {
-    return (
-        <main className="overflow-x-hidden ">
-            <HeaderComponent />
-            <div className="min-h-common w-full">
-                <ResourcesEquipamentos />
-                <EquipamentEquipamentos />
-            </div>
-            <FooterComponent />
-        </main>
-    );
+  return (
+    <main className="overflow-x-hidden ">
+      <HeaderComponent />
+      <div className="min-h-common w-full">
+        <ResourcesEquipamentos />
+        <EquipamentEquipamentos />
+      </div>
+      <FooterComponent />
+    </main>
+  );
 }

@@ -43,11 +43,11 @@ module.exports = {
       },
       boxShadow: {
         "3xl": "0 -10px 30px 10px #76fa4b",
-      }
+      },
     },
     minHeight: {
-        common: "900px"
-    }
+      common: "900px",
+    },
   },
   plugins: [],
 };
