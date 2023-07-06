@@ -22,9 +22,9 @@ export const SlideComponent = ({ data }: IProps) => {
         modules={[Navigation, Keyboard, Pagination]}
         className="mySwiper"
       >
-        {data.slideImage.map((slide) => (
+        {data.slideImage.map((slide, index) => (
           <>
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <Image src={slide.src} alt={slide.alt} />
             </SwiperSlide>
           </>

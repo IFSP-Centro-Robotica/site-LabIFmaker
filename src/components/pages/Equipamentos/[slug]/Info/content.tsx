@@ -74,8 +74,8 @@ export const ContentComponent = ({ data }: IProps) => {
               <strong className={styleTextStrong}>
                 {equipament.handbook!.title}
               </strong>
-              {equipament.handbook.handbook.map((handbook) => (
-                <p className={styledText}>
+              {equipament.handbook.handbook.map((handbook, index) => (
+                <p className={styledText} key={index}>
                   <a
                     href={handbook.link}
                     className={styledLinks}

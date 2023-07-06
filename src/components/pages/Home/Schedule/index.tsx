@@ -10,9 +10,13 @@ export const ScheduleHome = () => {
         <h2 className="text-zinc-500 font-montserrat text-xl max-w-4xl text-center">
           Então basta entrar em contato através do formulário abaixo.
         </h2>
-        <button className="text-2xl bg-primary text-white p-4 rounded font-montserrat font-bold shadow-2xl transition-colors hover:bg-primary-light-100 mt-6">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdGAPut5VFQ6uNyNjfLxX-LiTJvQuL3a4ciRPAOb66dJcvBlQ/viewform?usp=sf_link"
+          target="_blank"
+          className="text-2xl bg-primary text-white p-4 rounded font-montserrat font-bold shadow-2xl transition-colors hover:bg-primary-light-100 mt-6"
+        >
           Formulario
-        </button>
+        </a>
       </div>
     </section>
   );
