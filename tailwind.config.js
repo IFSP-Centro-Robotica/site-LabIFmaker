@@ -19,6 +19,18 @@ module.exports = {
         "primary-light-300": "#299e02",
         "primary-light-400": "#2bab00",
         "primary-light-500": "#2fba00",
+        "primary-light-600": "#33c900",
+        "primary-light-700": "#39db02",
+        "primary-light-800": "#3df000",
+        "primary-light/100": "#4bfc0f",
+        "primary-light/200": "#59ff21",
+        "primary-light/300": "#68ff36",
+        "primary-light/400": "#76fa4b",
+        "primary-light/500": "#8aff63",
+        "primary-light/600": "#94ff70",
+        "primary-light/700": "#9fff80",
+        "primary-light/800": "#acff91",
+
         "primary-dark-100": "#186100",
         "primary-dark-200": "#155201",
         "primary-dark-300": "#0f3d00",
@@ -27,8 +39,15 @@ module.exports = {
       },
       fontFamily: {
         montserrat: ["'Montserrat'", "sans-serif"],
+        ubuntu: ["'Ubuntu'", "sans-serif"],
       },
+      boxShadow: {
+        "3xl": "0 -10px 30px 10px #76fa4b",
+      }
     },
+    minHeight: {
+        common: "900px"
+    }
   },
   plugins: [],
 };
