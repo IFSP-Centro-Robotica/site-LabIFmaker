@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { resourcesFields } from "./resources";
+import { resourcesFields } from "@/mocks/equipaments/resources";
 
 export const ResourcesEquipamentos = () => {
   const [width, setWidth] = useState<number>();

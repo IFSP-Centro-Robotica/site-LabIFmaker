@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { equipamentFields } from "./equipament";
+import { equipamentFields } from "@/mocks/equipaments/equipament";
 
 export const EquipamentEquipamentos = () => {
   return (
