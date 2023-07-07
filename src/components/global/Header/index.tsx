@@ -20,7 +20,9 @@ export const HeaderComponent = () => {
         <Link href="/equipamentos" className={buttonsStyle}>
           Equipamentos
         </Link>
-        <button className={buttonsStyle}>Galeria</button>
+        <Link href="/galeria" className={buttonsStyle}>
+          Galeria
+        </Link>
         <button className={buttonsStyle}>Agendamento</button>
       </div>
     </div>

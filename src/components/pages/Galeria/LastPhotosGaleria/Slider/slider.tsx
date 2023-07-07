@@ -6,13 +6,10 @@ import { Navigation, Keyboard, Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import "./styles.css";
+import "@/components/pages/Home/Slider/styles.css";
 import "swiper/css/pagination";
-import Image from "next/image";
-import banner1 from "@/assets/slidesHome/banner1.png";
-import banner2 from "@/assets/slidesHome/banner2.png";
 
-export const SliderHome = () => {
+export const SliderGaleria = () => {
   return (
     <div className="w-screen  overflow-x-hidden flex items-center justify-center bg-zin-300">
       <div className="w-[95%] h-[700px] pb-12 pt-12 border-spacing-1 ">
@@ -22,12 +19,8 @@ export const SliderHome = () => {
           modules={[Navigation, Keyboard, Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <Image src={banner1} alt="um banner" className="object-cover"></Image>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={banner2} alt="um banner" className="object-cover" ></Image>
-          </SwiperSlide>
+          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>Slide 2</SwiperSlide>
           <SwiperSlide>Slide 3</SwiperSlide>
           <SwiperSlide>Slide 4</SwiperSlide>
           <SwiperSlide>Slide 5</SwiperSlide>
