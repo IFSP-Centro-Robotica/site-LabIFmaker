@@ -10,7 +10,7 @@ export default function EquipamentIndividual({
   return (
     <main className="overflow-x-hidden ">
       <HeaderComponent />
-      <div className="min-h-common">
+      <div className="min-h-common bg-zinc-100">
         <InfoEquipamentosIndividual slug={params.slug} />
       </div>
       <FooterComponent />

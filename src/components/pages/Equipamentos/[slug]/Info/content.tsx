@@ -55,22 +55,21 @@ export const ContentComponent = ({ data }: IProps) => {
               {equipament.type!.type}
             </p>
           )}
-          {equipament.website && (
-            <p className={styledText}>
-              <strong className={styleTextStrong}>
-                {equipament.website!.title}
-              </strong>
+          {equipament.website && equipament?.handbook && (
+            <div className="w-full mt-3 p-1 rounded flex flex-col">
+              <p className={styledText}>
+                <strong className={styleTextStrong}>
+                  {equipament.website!.title}
+                </strong>
+              </p>
               <a
                 href={equipament.website.website}
-                className={styledLinks}
+                className={styledLinks + styledText}
                 target="_blank"
               >
                 {equipament.website!.website}
               </a>
-            </p>
-          )}
-          {equipament?.handbook && (
-            <div className="w-full bg-zinc-300 p-1 rounded">
+
               <strong className={styleTextStrong}>
                 {equipament.handbook!.title}
               </strong>
