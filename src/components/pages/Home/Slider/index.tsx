@@ -1,16 +1,17 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import { Keyboard, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Keyboard, Pagination } from "swiper/modules";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "./styles.css";
-import "swiper/css/pagination";
-import Image from "next/image";
 import banner1 from "@/assets/slidesHome/banner1.png";
 import banner2 from "@/assets/slidesHome/banner2.png";
+import bannerSmall1 from "@/assets/slidesHome/banner-small1.png";
+import bannerSmall2 from "@/assets/slidesHome/banner-small2.png";
+import Image from "next/image";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "./styles.css";
 
 export const SliderHome = () => {
   return (
@@ -22,11 +23,19 @@ export const SliderHome = () => {
           modules={[Navigation, Keyboard, Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <Image src={banner1} alt="um banner" className="object-cover"></Image>
+          <SwiperSlide className="hidden">
+            <Image
+              src={window.innerWidth > 768 ? banner1 : bannerSmall1}
+              alt="um banner"
+              className="object-cover hidden"
+            ></Image>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={banner2} alt="um banner" className="object-cover" ></Image>
+            <Image
+              src={window.innerWidth > 768 ? banner2 : bannerSmall2}
+              alt="um banner"
+              className="object-cover"
+            ></Image>
           </SwiperSlide>
         </Swiper>
       </div>
