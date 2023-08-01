@@ -4,15 +4,15 @@ import { ArchiveRestore, Lightbulb, Wrench } from "lucide-react";
 
 export const AboutHome = () => {
   return (
-    <section className="w-full xl:h-[900px] xl:flex-row h-auto flex flex-col gap-12 items-center justify-center pt-4 pb-4 sm:pr-12 sm:pl-12 pr-6 pl-6 mt-4">
+    <section className="w-full xl:h-[900px] xl:flex-row h-auto flex flex-col gap-12 items-center justify-center xl:pt-4 pb-4 sm:pr-12 sm:pl-12 mt-4">
       <div className="w-full h-full">
         <Image
           src={background}
           alt="fundo"
-          className="w-full h-full object-cover rounded shadow-xl shadow-zinc-600"
+          className="sm:w-full sm:h-full  object-cover rounded shadow-xl shadow-zinc-600"
         />
       </div>
-      <div className="w-full h-full rounded flex flex-col gap-12">
+      <div className="w-full h-full rounded flex flex-col gap-12 xl:pr-0 xl:pl-0 pr-6 pl-6">
         <div className="w-full flex flex-col gap-8">
           <h1 className="font-montserrat font-bold sm:text-6xl text-5xl">
             O que é o Lab

@@ -4,6 +4,11 @@ import impressora3dEnderImage3 from "@/assets/equipamentos/Impressora-3D-Crealit
 import impressora3dEnderProImage1 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-Pro-1.jpg";
 import impressora3dEnderProImage2 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-Pro-2.jpg";
 import impressora3dEnderProImage3 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-Pro-3.jpg";
+import impressoraFlsunImage1 from "@/assets/equipamentos/Impressora-flsun-1.jpg";
+import impressoraFlsunImage2 from "@/assets/equipamentos/Impressora-flsun-2.jpg";
+import impressoraFlsunImage3 from "@/assets/equipamentos/Impressora-flsun-3.jpg";
+import mesaDigitalizadoraImage1 from "@/assets/equipamentos/Mesa-digitalizadora-1.webp";
+import mesaDigitalizadoraImage2 from "@/assets/equipamentos/Mesa-digitalizadora-2.webp";
 import maquinaLaser from "@/assets/equipamentos/Maquina-Laser.png";
 import arduino from "@/assets/equipamentos/arduino.png";
 import { StaticImageData } from "next/image";
@@ -267,6 +272,112 @@ export const equipamentFields: IEquipamentFields[] = [
       website: {
         title: "Para mais informações, visite o site da fabricante: ",
         website: "https://www.creality.com/products/ender-3-3d-printer",
+      },
+    },
+  },
+  {
+    title: "Impressora 3D Flsun QQ-S",
+    slug: "impressora-3d-flsun-qq-s",
+    image: {
+      alt: "Impressora 3D Flsun QQ-S",
+      src: impressoraFlsunImage1,
+    },
+    slideImage: [
+      {
+        alt: "Impressora 3D Flsun QQ-S",
+        src: impressoraFlsunImage1,
+      },
+      {
+        alt: "Impressora 3D Flsun QQ-S",
+        src: impressoraFlsunImage2,
+      },
+      {
+        alt: "Impressora 3D Flsun QQ-S",
+        src: impressoraFlsunImage3,
+      },
+    ],
+    description: `A Flsun é uma impressora 3D de baixo custo, com uma vasta
+                    gama demateriais para impressão. É uma impressora 3D com uma
+                    área de impressão de 450x770x200mm e uma velocidade de até
+                    300mm/s.`,
+    content: {
+      brand: {
+        title: "Marca: ",
+        brand: "Flsun",
+      },
+      softwares: {
+        title: "Softwares para utilização: ",
+        softwares: "Autodesk Fusion, ThinkerCad, SolidWorks",
+      },
+      extensions: {
+        title: "Extenções de arquivos suportadas: ",
+        extensions: "STL, OBJ, G-Code",
+      },
+      recommendedMaterialsTobeUsed: {
+        title: "Filementos recomendados: ",
+        recommendedMaterialsTobeUsed: "PLA, ABS, flexible, HIPS, wood, PVA",
+      },
+      handbook: {
+        title: "Ou acesse o manual deste equipamento: ",
+        handbook: [
+          {
+            link: "https://www.manualslib.com/manual/2455810/Flsun-Qq.html#product-QQ-S",
+            title: "Manual Impressora 3D Ender 3",
+          },
+        ],
+      },
+      website: {
+        title: "Para mais informações, visite o site da fabricante: ",
+        website: "https://flsun3d.com/",
+      },
+    },
+  },
+  {
+    title: "Mesa digitalizadora Wacom Cintiq 24hd",
+    slug: "mesa-digitalizadora-wacom-cintiq-24hd",
+    image: {
+      alt: "Mesa digitalizadora Wacom Cintiq 24hd",
+      src: mesaDigitalizadoraImage1,
+    },
+    slideImage: [
+      {
+        alt: "Mesa digitalizadora Wacom Cintiq 24hd",
+        src: mesaDigitalizadoraImage1,
+      },
+      {
+        alt: "Mesa digitalizadora Wacom Cintiq 24hd",
+        src: mesaDigitalizadoraImage2,
+      },
+    ],
+    description: `A mesa digitalizadora Wacom Cintiq 24hd possui uma tela touch 
+                    de 24 polegadas e uma resolução de 1920x1200 pixels.
+                    A mesa digitalizadora possui uma caneta com 2048 níveis de
+                    pressão e 40 graus de inclinação.`,
+    content: {
+      brand: {
+        title: "Marca: ",
+        brand: "Wacom",
+      },
+      softwares: {
+        title: "Softwares para utilização: ",
+        softwares: "Adobe Photoshop, InkScape, Gimp dentre outros softwares de desenho e edição de imagem.",
+      },
+      extensions: {
+        title: "Extenções de arquivos suportadas: ",
+        extensions: "PNG, JPG, JPEG, SVG, PDF",
+      },
+      handbook: {
+        title: "Ou acesse o manual deste equipamento: ",
+        handbook: [
+          {
+            link: "http://101.wacom.com/UserHelp/pt/About_Cintiq24.htm",
+            title: "Manual Mesa Digitalizadora",
+          },
+        ],
+      },
+      website: {
+        title: "Para mais informações, visite o site da fabricante: ",
+        website: "https://www.wacom.com/en-br",
       },
     },
   },
