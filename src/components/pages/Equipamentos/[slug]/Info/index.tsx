@@ -41,7 +41,7 @@ export const InfoEquipamentosIndividual = async ({ slug }: IProps) => {
             <div className="2xl:max-w-2xl xl:max-w-xl lg:max-w-lg max-w-full max-h-[600px]">
               <SlideComponent data={equipament} />
             </div>
-            <div className="lg:w-1/2 w-full h-full flex flex-col gap-3 ">
+            <div className="lg:w-1/2 w-full h-full flex flex-col gap-5 ">
               <h1 className="font-ubuntu font-bold text-4xl text-primary pb-2 border-b border-primary border-spacing-1 ">
                 Informações uteis:
               </h1>

@@ -8,7 +8,7 @@ export default function Galeria() {
         <main className="overflow-x-hidden ">
         <HeaderComponent />
         <div className="min-h-common w-full">
-            <LastPhotosGaleria />
+            {/* <LastPhotosGaleria /> */}
             <PhotosGaleria />
         </div>
         <FooterComponent />

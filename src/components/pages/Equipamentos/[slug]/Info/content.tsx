@@ -9,7 +9,7 @@ export const ContentComponent = ({ data }: IProps) => {
   const equipament = data.content;
 
   return (
-    <div>
+    <div className="w-full h-full flex flex-col gap-1">
       {equipament && (
         <>
           {equipament?.brand && (

@@ -333,7 +333,7 @@ export const equipamentFields: IEquipamentFields[] = [
     },
   },
   {
-    title: "Mesa digitalizadora Wacom Cintiq 24hd",
+    title: "Mesa Wacom Cintiq 24hd",
     slug: "mesa-digitalizadora-wacom-cintiq-24hd",
     image: {
       alt: "Mesa digitalizadora Wacom Cintiq 24hd",
@@ -349,10 +349,10 @@ export const equipamentFields: IEquipamentFields[] = [
         src: mesaDigitalizadoraImage2,
       },
     ],
-    description: `A mesa digitalizadora Wacom Cintiq 24hd possui uma tela touch 
+    description: `A mesa digitalizadora Wacom Cintiq 24hd possui uma tela touch
                     de 24 polegadas e uma resolução de 1920x1200 pixels.
                     A mesa digitalizadora possui uma caneta com 2048 níveis de
-                    pressão e 40 graus de inclinação.`,
+                    pressão.`,
     content: {
       brand: {
         title: "Marca: ",

@@ -1,4 +1,3 @@
-'use client';
 import { FooterComponent } from "@/components/global/Footer";
 import { HeaderComponent } from "@/components/global/Header";
 import { AboutHome } from "@/components/pages/Home/About";
