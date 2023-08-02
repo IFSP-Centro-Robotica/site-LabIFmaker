@@ -15,7 +15,7 @@ import "swiper/css/pagination";
 import "./styles.css";
 
 export const SliderHome = () => {
-  const [width, setWidth] = useState<number>(0);
+  const [width, setWidth] = useState<number>(1000);
 
   useEffect(() => {
     const handleResize = () => {
@@ -32,7 +32,7 @@ export const SliderHome = () => {
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
-  
+
   return (
     <div className="w-screen  overflow-x-hidden flex items-center justify-center bg-zin-300">
       <div className="w-[95%] pb-12 pt-12 border-spacing-1 ">
