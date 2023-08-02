@@ -26,7 +26,9 @@ export const ResourcesEquipamentos = () => {
                 key={resource.description}
                 className={`w-full flex xl:flex-row flex-col xl:text-start text-center gap-4 items-center hover:bg-primary-light/800 transition-colors rounded p-4 cursor-default sm:border-none border-b border-primary `}
               >
-                <resource.icon />
+                <div className="h-30 w-10">
+                  <resource.icon />
+                </div>
                 <p className="sm:text-2xl text-xl font-montserrat">
                   {resource.description}
                 </p>
@@ -45,7 +47,9 @@ export const ResourcesEquipamentos = () => {
                 {resourcesFields.map((resource) => (
                   <>
                     <div className=" flex flex-row gap-2 my-6 justify-start items-center">
-                      <resource.icon />
+                      <div className="h-30 w-30">
+                        <resource.icon />
+                      </div>
                       <p className="sm:text-2xl text-xl font-montserrat">
                         {resource.description}
                       </p>

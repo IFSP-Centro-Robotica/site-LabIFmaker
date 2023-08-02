@@ -11,7 +11,7 @@ const iconSize = 30;
 export const resourcesFields: IResourcesFields[] = [
   {
     icon: () => <Zap className={iconsStyle} size={iconSize} />,
-    description: "Prototipagem de objetos utilizando CNC",
+    description: "Mesa digitalizadora para desenhos",
   },
   {
     icon: () => <Zap className={iconsStyle} size={iconSize} />,
@@ -27,10 +27,10 @@ export const resourcesFields: IResourcesFields[] = [
   },
   {
     icon: () => <Zap className={iconsStyle} size={iconSize} />,
-    description: "Fabricação de PCI’s",
+    description: "Arduino para projetos",
   },
   {
     icon: () => <Zap className={iconsStyle} size={iconSize} />,
-    description: "Preenchimento a laser",
+    description: "Computadores para o desenvolvimento",
   },
 ];
