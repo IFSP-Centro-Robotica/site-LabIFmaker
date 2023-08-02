@@ -10,7 +10,7 @@ export const PhotosGaleria = () => {
             <h2 className="text-3xl font-montserrat font-medium text-center">Todas as fotos</h2>
             <div className="flex flex-wrap gap-5 m-5 justify-center p-2">
                 {GaleryImages.map((item)=>(
-                    <Image src={item.url} alt={item.alt} className={PhotosStyle}></Image>
+                    <Image src={item.url} alt={item.alt} key={item.alt} className={PhotosStyle}></Image>
                 ))}
             </div>
         </div>
