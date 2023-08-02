@@ -1,5 +1,4 @@
 "use client";
-
 import { Keyboard, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,31 +7,12 @@ import bannerSmall2 from "@/assets/slidesHome/banner-small2.png";
 import banner1 from "@/assets/slidesHome/banner1.png";
 import banner2 from "@/assets/slidesHome/banner2.png";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./styles.css";
 
 export const SliderHome = () => {
-  const [width, setWidth] = useState<number>(1000);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
-
   return (
     <div className="w-screen  overflow-x-hidden flex items-center justify-center bg-zin-300">
       <div className="w-[95%] pb-12 pt-12 border-spacing-1 ">
@@ -44,16 +24,26 @@ export const SliderHome = () => {
         >
           <SwiperSlide className="hidden">
             <Image
-              src={width > 768 ? banner1 : bannerSmall1}
+              src={banner1}
               alt="um banner"
-              className="object-cover hidden"
+              className="object-cover lg:block hidden"
+            ></Image>
+            <Image
+              src={bannerSmall1}
+              alt="um banner"
+              className="object-cover lg:hidden block"
             ></Image>
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src={width > 768 ? banner2 : bannerSmall2}
+          <Image
+              src={banner2}
               alt="um banner"
-              className="object-cover"
+              className="object-cover lg:block hidden"
+            ></Image>
+            <Image
+              src={bannerSmall2}
+              alt="um banner"
+              className="object-cover lg:hidden block"
             ></Image>
           </SwiperSlide>
         </Swiper>
