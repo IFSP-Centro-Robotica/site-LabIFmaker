@@ -7,7 +7,7 @@ export const ScheduleHome = () => {
           <span className="text-primary">quer agendar</span> um horário para
           visitar nosso laboratório?
         </h1>
-        <h2 className="text-zinc-500 font-montserrat text-xl max-w-4xl text-center">
+        <h2 className="text-black font-montserrat text-xl max-w-4xl text-center">
           Então basta entrar em contato através do formulário abaixo.
         </h2>
         <a

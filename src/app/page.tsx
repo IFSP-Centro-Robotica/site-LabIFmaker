@@ -7,7 +7,7 @@ import { SliderHome } from "@/components/pages/Home/Slider";
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden ">
+    <main className="overflow-x-hidden">
       <HeaderComponent />
       <OpeningHome />
       <SliderHome />
