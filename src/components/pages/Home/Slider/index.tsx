@@ -25,24 +25,24 @@ export const SliderHome = () => {
           <SwiperSlide className="hidden">
             <Image
               src={banner1}
-              alt="um banner"
+              alt="Banner com a logo do labif (versão para celular)"
               className="object-cover lg:block hidden"
             ></Image>
             <Image
               src={bannerSmall1}
-              alt="um banner"
+              alt="Banner escrito: 'venha conhecer e deixe a criatividade fluir' (versão para celular)"
               className="object-cover lg:hidden block"
             ></Image>
           </SwiperSlide>
           <SwiperSlide>
-          <Image
+            <Image
               src={banner2}
-              alt="um banner"
+              alt="Banner com a logo do labif (versão para computador)"
               className="object-cover lg:block hidden"
             ></Image>
             <Image
               src={bannerSmall2}
-              alt="um banner"
+              alt="Banner escrito: 'venha conhecer e deixe a criatividade fluir' (versão para computador)"
               className="object-cover lg:hidden block"
             ></Image>
           </SwiperSlide>
