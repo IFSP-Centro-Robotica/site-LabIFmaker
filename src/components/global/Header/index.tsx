@@ -27,6 +27,12 @@ export const HeaderComponent = () => {
         <Link href="/galeria" className={buttonsStyle}>
           Galeria
         </Link>
+        <Link href="/galeria" className={buttonsStyle}>
+          Cursos
+        </Link>
+        <Link href="/galeria" className={buttonsStyle}>
+          Equipe
+        </Link>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSdGAPut5VFQ6uNyNjfLxX-LiTJvQuL3a4ciRPAOb66dJcvBlQ/viewform?usp=sf_link"
           className={buttonsStyle}

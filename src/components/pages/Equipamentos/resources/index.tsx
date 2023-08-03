@@ -14,7 +14,7 @@ export const ResourcesEquipamentos = () => {
       className={`bg-zinc-100 w-full flex items-center justify-center flex-col gap-4 p-8 relative overflow-hidden`}
     >
       <div className="w-full flex items-center justify-center ">
-        <h1 className="bg-[#cbfcbb] text-primary pt-1 pb-1 pr-3 pl-3 mt-2 rounded-full text-xl font-ubuntu border border-spacing-1 border-primary tracking-tighter uppercase">
+        <h1 className="text-primary pt-1 pb-1 pr-5 pl-5 mt-2 rounded-full text-2xl font-ubuntu border border-spacing-1 border-primary tracking-tighter uppercase">
           Recursos
         </h1>
       </div>
@@ -43,9 +43,9 @@ export const ResourcesEquipamentos = () => {
               </AccordionTrigger>
               <AccordionContent className=" flex flex-col">
                 {resourcesFields.map((resource) => (
-                    <div 
+                    <div
                       className=" flex flex-row gap-2 my-6 justify-start items-center"
-                      key={resource.description}  
+                      key={resource.description}
                     >
                       <div className="h-30 w-30">
                         <resource.icon />
