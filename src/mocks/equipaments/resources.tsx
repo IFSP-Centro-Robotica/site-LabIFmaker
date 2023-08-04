@@ -1,6 +1,6 @@
 import { Zap } from "lucide-react";
 
-interface IResourcesFields {
+export interface IResourcesFields {
   icon: () => JSX.Element;
   description: string;
 }
