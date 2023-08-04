@@ -27,10 +27,13 @@ export const HeaderComponent = () => {
         <Link href="/galeria" className={buttonsStyle}>
           Galeria
         </Link>
-        <Link href="/galeria" className={buttonsStyle}>
+        <Link href="/cursos" className={buttonsStyle}>
           Cursos
         </Link>
-        <Link href="/galeria" className={buttonsStyle}>
+        <Link href="/projetos" className={buttonsStyle}>
+          Projetos
+        </Link>
+        <Link href="/equipe" className={buttonsStyle}>
           Equipe
         </Link>
         <a
