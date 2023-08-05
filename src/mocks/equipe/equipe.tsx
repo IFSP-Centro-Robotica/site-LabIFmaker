@@ -1,3 +1,4 @@
+import { Phone, Github } from "lucide-react";
 import { ImgHTMLAttributes, ReactNode } from "react";
 
 export interface InterfaceEquipeMock {
@@ -8,22 +9,28 @@ export interface InterfaceEquipeMock {
   moreInformation: {
     formation: string;
     function: string;
-    socialMedias?: [
-      {
-        name: string;
-        link: string;
-      },
-    ];
-    contact?: [
-      {
-        name: string;
-        value?: string;
-      },
-    ];
+    socialMedias?: ISocialMedias[];
+    contact?: IContact[];
   };
 }
 
+export interface IContact {
+  name: string;
+  Icon?: ReactNode;
+  value?: string;
+  isLink?: boolean;
+}
+
+export interface ISocialMedias {
+  name: string;
+  Icon?: ReactNode;
+  link: string;
+}
+
 const styleImage = "w-auto h-full rounded";
+const styleIcon = "text-primary";
+
+const sizeIcon = 25;
 
 export const EquipeMock: InterfaceEquipeMock[] = [
   {
@@ -43,7 +50,14 @@ export const EquipeMock: InterfaceEquipeMock[] = [
       contact: [
         {
           name: "Telefone",
+          Icon: <Phone size={sizeIcon} className={styleIcon} />,
           value: "(00) 00000-0000",
+        },
+        {
+          name: "Github",
+          Icon: <Github size={sizeIcon} className={styleIcon} />,
+          value: "https://github.com/Kyoudan",
+          isLink: true,
         },
       ],
     },

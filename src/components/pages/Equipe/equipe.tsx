@@ -10,7 +10,7 @@ export const Equipe = () => {
         </h1>
       </div>
       {EquipeMock && EquipeMock.map(people => (
-        <CardComponentEquipe props={people} />
+        <CardComponentEquipe props={people} key={people.name}/>
       ))}
     </section>
   );
