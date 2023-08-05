@@ -106,6 +106,9 @@ module.exports = {
       boxShadow: {
         "3xl": "0 -10px 30px 10px #76fa4b",
       },
+      boxShadow: {
+        "4xl": "0 0px 20px 10px rgba(0, 0, 0, 0.2)",
+      },
     },
     minHeight: {
       common: "900px",
