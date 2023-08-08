@@ -1,9 +1,11 @@
 import { HeaderComponent } from "@/components/global/Header";
+import { Project } from "@/components/pages/projetos/project";
 
 export default function Projects() {
     return (
-        <section>
+        <main>
             <HeaderComponent />
-        </section>
+            <Project/>
+        </main>
     );
 }
