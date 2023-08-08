@@ -25,7 +25,7 @@ interface IProps {
 export const ModalComponentEquipe = ({ props, name }: IProps) => {
   return (
     <Dialog>
-      <DialogTrigger className="text-xl bg-primary text-white text-center font-montserrat font-bold px-4 py-2 rounded">
+      <DialogTrigger className="sm:w-fit text-xl bg-primary text-white text-center font-montserrat font-bold px-4 py-2 rounded">
         Mais informações
       </DialogTrigger>
       <DialogContent>

@@ -21,7 +21,7 @@ export const MenuPhoneComponent = () => {
             <NavigationMenuTrigger className="bg-primary-light-200 active:bg-primary-light-300 text-white">
               <Menu size={30} />
             </NavigationMenuTrigger>
-            <NavigationMenuContent className="w-full flex flex-col gap-4 p-5 border-primary border ">
+            <NavigationMenuContent className="w-full flex flex-col gap-4 p-5">
               <NavigationMenuLink className="w-full">
                 <Link className={buttonsStyle} href="/">
                   Inicio

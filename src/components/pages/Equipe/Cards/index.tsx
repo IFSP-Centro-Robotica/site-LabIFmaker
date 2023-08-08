@@ -11,9 +11,9 @@ export const CardComponentEquipe = ({ props }: IProps) => {
 
   return (
     <section className="w-full flex items-center justify-center flex-row gap-4 ">
-      <div className="w-[80%] h-[250px] flex items-start justify-start flex-row gap-4 shadow-4xl  rounded p-2">
+      <div className="sm:w-[80%] sm:h-[250px] flex sm:items-start items-center justify-start sm:flex-row flex-col gap-4 shadow-4xl  rounded p-3">
         <props.image />
-        <div className="w-full h-full flex-col flex gap-2 justify-between py-2  ">
+        <div className="w-full h-full flex-col sm:items-start items-center flex gap-3 justify-between py-2  ">
           <p className="font-montserrat font-bold text-xl">
             {props.name}
           </p>
