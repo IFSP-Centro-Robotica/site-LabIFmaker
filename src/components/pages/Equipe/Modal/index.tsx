@@ -25,12 +25,12 @@ interface IProps {
 export const ModalComponentEquipe = ({ props, name }: IProps) => {
   return (
     <Dialog>
-      <DialogTrigger className="sm:w-fit text-xl bg-primary text-white text-center font-montserrat font-bold px-4 py-2 rounded">
+      <DialogTrigger className="sm:w-fit  text-xl bg-primary text-white text-center font-montserrat font-bold px-4 py-2 rounded">
         Mais informações
       </DialogTrigger>
-      <DialogContent>
+      <DialogContent className="sm:w-fit w-[90%] ">
         <DialogHeader>
-          <DialogTitle className="text-center text-3xl font-montserrat font-bold text-primary mb-4">
+          <DialogTitle className="justify-center text-center sm:text-3xl text-2xl font-montserrat font-bold text-primary mb-4 flex-wrap ">
             {name}
           </DialogTitle>
           <DialogDescription className="w-full flex items-start justify-center flex-col gap-2">
@@ -79,7 +79,7 @@ export const ModalComponentEquipe = ({ props, name }: IProps) => {
                           target="_blank"
                           href={contact.value}
                         >
-                          {contact.value}
+                          {contact.mask ? contact.mask : contact.value}
                         </a>
                       </>
                     ) : (

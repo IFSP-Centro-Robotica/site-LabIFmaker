@@ -111,7 +111,7 @@ module.exports = {
       },
     },
     minHeight: {
-      common: "900px",
+      common: "1000px",
     },
   },
   plugins: [require("tailwindcss-animate")],
