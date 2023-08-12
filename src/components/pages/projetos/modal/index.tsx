@@ -21,7 +21,7 @@ export const ModalComponentProject = ({ props }: IProps) => {
       <DialogTrigger className="sm:w-fit text-xl bg-primary text-white text-center font-montserrat font-bold px-4 py-2 rounded">
         Mais informações
       </DialogTrigger>
-      <DialogContent>
+      <DialogContent className="sm:w-fit w-[90%] ">
         <DialogHeader>
           <DialogTitle className="text-center text-3xl font-montserrat font-bold text-primary mb-4">
             {props.name}

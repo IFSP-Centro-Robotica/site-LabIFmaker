@@ -9,9 +9,9 @@ interface IProps {
 export const CardComponentProjects = ({ props }: IProps) => {
   return (
     <section className="w-full flex items-center justify-center flex-row gap-4 ">
-      <div className="lg:w-[50%] lg:h-[250px] h-[400px] flex lg:items-start items-center justify-start lg:flex-row flex-col gap-4 shadow-4xl  rounded p-3">
-        <Image src={props.image} alt="image" className="w-auto h-[100%]"/>
-        <div className=" lg:h-full h-30 flex-col sm:items-start items-center flex gap-3 justify-between py-2">
+      <div className="sm:w-[80%] w-[90%] sm:h-[250px] flex sm:items-start items-center justify-start sm:flex-row flex-col gap-4 shadow-4xl  rounded p-3">
+        <Image src={props.image} alt="image" className="w-auto h-[100%]" />
+        <div className=" sm:h-full h-30 flex-col sm:items-start items-center flex gap-3 justify-between py-2">
           <h1 className="text-3xl">{props.name}</h1>
           <div>
             <ModalComponentProject props={props} />
