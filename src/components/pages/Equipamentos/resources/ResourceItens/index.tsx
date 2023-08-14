@@ -1,6 +1,10 @@
-import { IResourcesFields } from "@/mocks/equipaments/resources";
+import { IResourcesFields } from "@/mocks/resources/resources";
 
-export const ResourceItens = ({resourcesFields}:{resourcesFields:IResourcesFields[]}) => {
+export const ResourceItens = ({
+  resourcesFields,
+}: {
+  resourcesFields: IResourcesFields[];
+}) => {
   return (
     <>
       <div className="w-full lg:grid hidden md:grid-cols-3 sm:grid-cols-2 grid-cols-1 flex-wrap sm:gap-4 gap-8  justify-around">

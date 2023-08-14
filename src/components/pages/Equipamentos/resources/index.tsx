@@ -1,5 +1,5 @@
 "use client";
-import { resourcesFields } from "@/mocks/equipaments/resources";
+import { resourcesFields } from "@/mocks/resources/resources";
 import { ResourcesAccordion } from "./Accordion";
 import { ResourceItens } from "./ResourceItens";
 

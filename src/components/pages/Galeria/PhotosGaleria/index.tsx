@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image"
-import { GaleryImages } from "@/mocks/equipaments/galery"
+import { GaleryImages } from "@/mocks/galery/galery"
 
 const PhotosStyle =  "lg:w-[30vw] w-[95vw] h-auto border rounded-md shadow-md hover:scale-105 ease-in-out duration-300"
 

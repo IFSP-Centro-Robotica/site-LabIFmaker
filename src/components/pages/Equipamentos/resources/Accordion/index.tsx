@@ -4,9 +4,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { IResourcesFields } from "@/mocks/equipaments/resources";
+import { IResourcesFields } from "@/mocks/resources/resources";
 
-export const ResourcesAccordion = ({resourcesFields}:{resourcesFields:IResourcesFields[]}) => {
+export const ResourcesAccordion = ({
+  resourcesFields,
+}: {
+  resourcesFields: IResourcesFields[];
+}) => {
   return (
     <div className="lg:hidden block transition-all">
       <Accordion type="single" collapsible>
