@@ -1,6 +1,6 @@
 "use client";
 
-import { InterfaceCoursesMock } from "@/mocks/cursos/cursos";
+import { InterfaceCoursesMock } from "@/mocks/courses/courses";
 import { useEffect, useState } from "react";
 import { Link } from "lucide-react";
 

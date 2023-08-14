@@ -1,31 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+    <img src="https://cdn.discordapp.com/attachments/863861085471244288/1140661789940535378/LabIfLogo.png" alt="teste" width="500" height="200">
+</div>
 
-## Getting Started
+<h1 align="center">Laboratório IF Maker <br/><br/></h1>
 
-First, run the development server:
+<h1 align="center"><br/>
+
+Tecnologias
+
+![Next](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)&nbsp;
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
+<img src="https://cdn.discordapp.com/attachments/863861085471244288/1140665797312774385/image.png" alt="teste" width="80" height="30">
+
+<br/></h1>
+
+
+
+<h1 align="center"><br/>Instalação<br/><br/></h1>
+
+!! Este projeto utiliza o npm !!
+
+1. Instale as depedencias
 
 ```bash
-npm run dev
-
+    $ npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Rode o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+    $ npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h1 align="center"><br/>Manutenção<br/><br/></h1>
 
-## Learn More
+1. Acesse a pasta **MOCKS** dentro da pasta **SRC** para adicionar novas informações ao site
 
-To learn more about Next.js, take a look at the following resources:
+Vamos supor que você queira adicionar um novo curso:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O arquivo **courses.tsx** vai ter duas partes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Interface
 
-## Deploy on Vercel
+```typescript
+export interface InterfaceCoursesMock {
+  name: string;
+  description: string;
+  link: string;
+  moodleLink: string;
+}
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Essa interface são as opções que você pode adicionar no mock, em caso de alteração da interface, será necessário a manutenção na pagina
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Mockup
+
+```typescript
+export const CourseMock: InterfaceCoursesMock[] = [
+  {
+    name: "Curso de informatica presencial",
+    description:
+      "Este curso aborda um dos principais temas sobre a tecnologia no mercado atualmente...",
+    link: "https://www.youtube.com/watch?v=Dj9qJsJTsjQ",
+    moodleLink: "https://moodle.itp.ifsp.edu.br/login/index.php",
+  },
+];
+```
+
+O Mockup vai servir como um banco de dados onde você pode adicionar todas suas informações dentro de um array que contém varios objetos referente a interface.
+
+[Mocks](https://github.com/Martins-pedro23/Front-LabIFMaker-user/tree/development/src/mocks)
+
+<br />
+<br />
+<br />
+<br />
+<hr />
+<br />
+
+<img src="https://cdn.discordapp.com/attachments/863861085471244288/1140661790280261732/IfLogo.png" alt="teste" width="250" height="70">

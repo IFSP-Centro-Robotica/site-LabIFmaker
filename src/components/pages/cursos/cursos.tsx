@@ -1,4 +1,4 @@
-import { CourseMock } from "@/mocks/cursos/cursos";
+import { CourseMock } from "@/mocks/courses/courses";
 import { CardComponentCourse } from "./card";
 
 export const Courses = () => {
