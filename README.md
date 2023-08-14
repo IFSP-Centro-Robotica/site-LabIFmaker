@@ -38,9 +38,9 @@ Tecnologias
 
 Vamos supor que você queira adicionar um novo curso:
 
-O arquivo **courses.tsx** vai ter duas partes:
+O arquivo **courses.tsx** terá duas partes:
 
-1. Interface
+## 1. Interface
 
 ```typescript
 export interface InterfaceCoursesMock {
@@ -51,9 +51,9 @@ export interface InterfaceCoursesMock {
 }
 ```
 
-Essa interface são as opções que você pode adicionar no mock, em caso de alteração da interface, será necessário a manutenção na pagina
+Essa interface contém as opções que você pode adicionar ao mock. Em caso de alteração da interface, será necessário fazer a manutenção na página.
 
-2. Mockup
+## 2. Mockup
 
 ```typescript
 export const CourseMock: InterfaceCoursesMock[] = [
@@ -67,7 +67,7 @@ export const CourseMock: InterfaceCoursesMock[] = [
 ];
 ```
 
-O Mockup vai servir como um banco de dados onde você pode adicionar todas suas informações dentro de um array que contém varios objetos referente a interface.
+O Mockup funciona como um banco de dados onde você pode adicionar todas as suas informações dentro de um array que contém vários objetos referentes à interface.
 
 [Mocks](https://github.com/Martins-pedro23/Front-LabIFMaker-user/tree/development/src/mocks)
 
