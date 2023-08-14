@@ -37,7 +37,22 @@ export const MenuPhoneComponent = () => {
                   Galeria
                 </Link>
               </NavigationMenuLink>
-              <NavigationMenuLink className="w-full" >
+              <NavigationMenuLink className="w-full">
+                <Link className={buttonsStyle} href="/cursos">
+                  Cursos
+                </Link>
+              </NavigationMenuLink>
+              <NavigationMenuLink className="w-full">
+                <Link className={buttonsStyle} href="/projetos">
+                  Projetos
+                </Link>
+              </NavigationMenuLink>
+              <NavigationMenuLink className="w-full">
+                <Link className={buttonsStyle} href="/equipe">
+                  Equipe
+                </Link>
+              </NavigationMenuLink>
+              <NavigationMenuLink className="w-full">
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSdGAPut5VFQ6uNyNjfLxX-LiTJvQuL3a4ciRPAOb66dJcvBlQ/viewform?usp=sf_link"
                   className={buttonsStyle}
