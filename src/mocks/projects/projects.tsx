@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 import { Link } from "lucide-react";
-import placeholder from "@/assets/placeholder.png"
+import LabIF from "@/assets/projetos/LabIFMaker.png"
 export interface InterfaceProjectsMock {
   name: string;
   description: string;
@@ -17,7 +17,7 @@ export const ProjectMock: InterfaceProjectsMock[] = [
     description:
       "Projeto realizado para o desenvolvimento da plataforma on-line do LabIF Maker",
     authors: ["João Pedro Martins", "Gustavo Rafael Cardilho"],
-    image: placeholder,
+    image: LabIF,
     status: "Ativo",
   },
 ];

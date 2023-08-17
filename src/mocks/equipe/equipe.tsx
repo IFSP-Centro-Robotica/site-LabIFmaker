@@ -1,11 +1,13 @@
 import { Phone, Github } from "lucide-react";
 import { ImgHTMLAttributes, ReactNode } from "react";
+import imageJoao from "@/assets/equipe/joao.jpg";
+import { StaticImageData } from "next/image";
 
 export interface InterfaceEquipeMock {
   name: string;
   curriculumLatte: string;
   linkedin: string;
-  image: () => ReactNode;
+  image: StaticImageData;
   moreInformation: {
     formation: string;
     function: string;
@@ -38,13 +40,7 @@ export const EquipeMock: InterfaceEquipeMock[] = [
     name: "Gustavo Rafael Cardilho",
     curriculumLatte: "http://lattes.cnpq.br/0000000000000000",
     linkedin: "https://www.linkedin.com/in/gustavo-rafael-cardilho-000000000/",
-    image: () => (
-      <img
-        src="https://via.placeholder.com/250"
-        alt="Foto de perfil"
-        className={styleImage}
-      />
-    ),
+    image: imageJoao,
     moreInformation: {
       formation: "Graduando em Engenharia de Computação",
       function: "Presidente",
@@ -65,29 +61,23 @@ export const EquipeMock: InterfaceEquipeMock[] = [
     },
   },
   {
-    name: "Gustavo Rafael Cardilho",
-    curriculumLatte: "http://lattes.cnpq.br/0000000000000000",
-    linkedin: "https://www.linkedin.com/in/gustavo-rafael-cardilho-000000000/",
-    image: () => (
-      <img
-        src="https://via.placeholder.com/250"
-        alt="Foto de perfil"
-        className={styleImage}
-      />
-    ),
+    name: "João Pedro Martins de Oliveira Medeiros",
+    curriculumLatte: "http://lattes.cnpq.br/5228128646264132",
+    linkedin: "http://linkedin.com/in/joão-pedro-martins-de-oliveira-969712272",
+    image: imageJoao,
     moreInformation: {
-      formation: "Graduando em Engenharia de Computação",
-      function: "Presidente",
+      formation: "Cursando tecnico em informatica",
+      function: "Desenvolvedor web",
       contact: [
         {
           name: "Telefone",
           Icon: <Phone size={sizeIcon} className={styleIcon} />,
-          value: "(00) 00000-0000",
+          value: "(15) 99773-0257",
         },
         {
           name: "Github",
           Icon: <Github size={sizeIcon} className={styleIcon} />,
-          value: "https://github.com/Kyoudan",
+          value: "https://github.com/Martins-pedro23",
           isLink: true,
           mask: "Link",
         },
