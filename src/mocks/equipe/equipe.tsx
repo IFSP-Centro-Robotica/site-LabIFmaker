@@ -1,7 +1,9 @@
-import { Phone, Github } from "lucide-react";
+import { Phone, Github, Mail } from "lucide-react";
 import { ImgHTMLAttributes, ReactNode } from "react";
-import imageJoao from "@/assets/equipe/joao.jpg";
 import { StaticImageData } from "next/image";
+import imageJoao from "@/assets/equipe/joao.jpg";
+import imageJosi from "@/assets/equipe/josi.jpeg";
+import imageGustavo from "@/assets/equipe/gustavo.jpeg";
 
 export interface InterfaceEquipeMock {
   name: string;
@@ -37,19 +39,31 @@ const sizeIcon = 25;
 
 export const EquipeMock: InterfaceEquipeMock[] = [
   {
+    name: "Josiane de Oliveira",
+    curriculumLatte: "http://lattes.cnpq.br/0070059264743405",
+    linkedin: "https://www.linkedin.com/in/josiane-oliveira-7b95b71b9",
+    image: imageJosi,
+    moreInformation: {
+      formation: " Pedagoga, cursando matemática.",
+      function: "Práticas pedagógicas com desenho e impressão 3D.",
+      contact: [
+        {
+          name: "Email",
+          Icon: <Mail size={sizeIcon} className={styleIcon} />,
+          value: " josianedeoliveira1307@gmail.com",
+        },
+      ],
+    },
+  },
+  {
     name: "Gustavo Rafael Cardilho",
     curriculumLatte: "http://lattes.cnpq.br/0000000000000000",
     linkedin: "https://www.linkedin.com/in/gustavo-rafael-cardilho-000000000/",
-    image: imageJoao,
+    image: imageGustavo,
     moreInformation: {
-      formation: "Graduando em Engenharia de Computação",
-      function: "Presidente",
+      formation: "Ensino médio",
+      function: "Desenvolvedor web (comunidade externa)",
       contact: [
-        {
-          name: "Telefone",
-          Icon: <Phone size={sizeIcon} className={styleIcon} />,
-          value: "(00) 00000-0000",
-        },
         {
           name: "Github",
           Icon: <Github size={sizeIcon} className={styleIcon} />,
