@@ -9,7 +9,7 @@ export const Project = () => {
           Projetos
         </h1>
       </div>
-      <div className="lg:grid flex flex-col grid-cols-2 lg:gap-y-20 gap-4 mb-20">
+      <div className="lg:grid flex flex-col grid-cols-2 lg:gap-y-20 gap-4 mb-20 xl:px-20">
 
         {ProjectMock &&
           ProjectMock.map((project) => (
