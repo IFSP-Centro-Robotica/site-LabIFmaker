@@ -8,30 +8,42 @@ export interface InterfaceProjectsMock {
   status: "Ativo" | "Finalizado";
 }
 
-const styleImage = "w-auto h-full rounded";
-
 export const ProjectMock: InterfaceProjectsMock[] = [
   {
     name: "Site LabIF Maker",
-    description:
-      "Projeto realizado para o desenvolvimento da plataforma on-line do LabIF Maker",
+    description: `rojeto realizado para o desenvolvimento da plataforma on-line do LabIF Maker, que possui o intuito de divulgar o centro de Robotica do IFSP Câmpus Itapetininga.
+                  Nele foi utilizada as tecnologias: React e Next, amabas as ferramentas são opções modernas que vem sendo amplamente adotadas pelo mercado.`,
     authors: ["João Pedro Martins", "Gustavo Rafael Cardilho"],
     image: LabIF,
     status: "Ativo",
   },
   {
     name: "Práticas pedagógicas de desenho e impressão 3D",
-    description: `Este projeto pretende elaborar videos que, incialmente, ensinem docentes e professores a utilizarem e
-                  quipementos de desenho e impressão 3D. Para que estes possam trabalhar com seus alunos em praticas pedagogicas.`,
+    description: `O projeto "Práticas pedagógicas" pretende criar e desenvolver cursos abrangentes voltados para
+                  professores interessados em incorporar tecnologias em suas práticas educacionais. Um dos objetivos é capacitar os
+                  educadores a explorar efetivamente conceitos de desenho 3D, impressão 3D, cortadora a laser, programação Arduino e
+                  outras tecnologias relevantes para a sala de aula com cursos online disponíveis no moodle IFSP Itapetininga com certificado.
+                  As atividades envolvem materiais e assuntos didáticos interativos. Adaptando o conteúdo técnico para uma
+                  linguagem acessível aos educadores, enfatizando a integração dessas tecnologias nas disciplinas curriculares existentes.
+                  Além do oferecimento de oficinas presenciais para os professores alcançarem o sucesso na incorporação dessas ferramentas
+                  inovadoras em seus ambientes de ensino.`,
     authors: ["Josiane de Oliveira"],
     image: LabIF,
     status: "Ativo",
   },
-  
   {
     name: "Gerenciador de horta automatizado com Arduino.",
-    description: `Este projeto pretende criar um sistema autonomo que possa manejar uma horta, controlando sua irrigação.`,
+    description: `O projeto busca automatizar um gerenciador de horta com Arduino, trazendo um custo
+                  de produção relativamente baixo, e que seja sustentável, de maneira que interaja com o solo, molhando-o
+                  quando for necessário.`,
     authors: ["Márcio Felipe Ribeiro Vieira dos Santos"],
+    image: LabIF,
+    status: "Ativo",
+  },
+  {
+    name: "Hello2Code e Hello2Code Kids (Hello Yotta)",
+    description: `O projeto busca Desenvolvolver uma plataforma de programação em blocos (Hello2Code) para o kit de robótica HY-01 da Hello Yotta.`,
+    authors: [" Vitor Gabriel de Aquino "],
     image: LabIF,
     status: "Ativo",
   },

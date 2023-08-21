@@ -4,6 +4,8 @@ import { StaticImageData } from "next/image";
 import imageJoao from "@/assets/equipe/joao.jpg";
 import imageJosi from "@/assets/equipe/josi.jpeg";
 import imageGustavo from "@/assets/equipe/gustavo.jpeg";
+import imageMarcio from "@/assets/equipe/marcio.jpeg";
+import imageVitor from "@/assets/equipe/vitor.jpeg";
 
 export interface InterfaceEquipeMock {
   name: string;
@@ -32,7 +34,6 @@ export interface ISocialMedias {
   link: string;
 }
 
-const styleImage = "w-auto h-full rounded";
 const styleIcon = "text-primary";
 
 const sizeIcon = 25;
@@ -55,12 +56,11 @@ export const EquipeMock: InterfaceEquipeMock[] = [
       ],
     },
   },
-  
   {
     name: "Márcio Felipe Ribeiro Vieira dos Santos",
-    curriculumLatte: "http://lattes.cnpq.br/5228128646264132",
-    linkedin: "http://linkedin.com/in/joão-pedro-martins-de-oliveira-969712272",
-    image: imageJoao,
+    curriculumLatte: "http://lattes.cnpq.br/0388691536843398",
+    linkedin: "https://www.linkedin.com/in/m%C3%A1rcio-felipe-445818289",
+    image: imageMarcio,
     moreInformation: {
       formation: "Cursando técnico em informatica",
       function: "Desenvolver um gerenciador de horta automatizado com Arduino.",
@@ -123,6 +123,26 @@ export const EquipeMock: InterfaceEquipeMock[] = [
           name: "Email",
           Icon: <Mail size={sizeIcon} className={styleIcon} />,
           value: "Martinsdeoliveira.pedro2@gmail.com",
+        },
+      ],
+    },
+  },
+  
+  {
+    name: "Vitor Gabriel de Aquino ",
+    curriculumLatte: "http://lattes.cnpq.br/5228128646264132",
+    linkedin: "https://www.linkedin.com/in/vitor-aquino-516a05286/",
+    image: imageVitor,
+    moreInformation: {
+      formation: "Cursando Técnico de Informática",
+      function: "Desenvolver da plataforma Hello2code",
+      contact: [
+        {
+          name: "GitHub",
+          Icon: <Github size={sizeIcon} className={styleIcon} />,
+          value: "https://github.com/Vitor-G-Aquino",
+          isLink: true,
+          mask: "Link",
         },
       ],
     },
