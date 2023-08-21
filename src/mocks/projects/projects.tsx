@@ -27,4 +27,12 @@ export const ProjectMock: InterfaceProjectsMock[] = [
     image: LabIF,
     status: "Ativo",
   },
+  
+  {
+    name: "Gerenciador de horta automatizado com Arduino.",
+    description: `Este projeto pretende criar um sistema autonomo que possa manejar uma horta, controlando sua irrigação.`,
+    authors: ["Márcio Felipe Ribeiro Vieira dos Santos"],
+    image: LabIF,
+    status: "Ativo",
+  },
 ];

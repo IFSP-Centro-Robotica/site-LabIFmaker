@@ -55,9 +55,32 @@ export const EquipeMock: InterfaceEquipeMock[] = [
       ],
     },
   },
+  
+  {
+    name: "Márcio Felipe Ribeiro Vieira dos Santos",
+    curriculumLatte: "http://lattes.cnpq.br/5228128646264132",
+    linkedin: "http://linkedin.com/in/joão-pedro-martins-de-oliveira-969712272",
+    image: imageJoao,
+    moreInformation: {
+      formation: "Cursando técnico em informatica",
+      function: "Desenvolver um gerenciador de horta automatizado com Arduino.",
+      contact: [
+        {
+          name: "Telefone",
+          Icon: <Phone size={sizeIcon} className={styleIcon} />,
+          value: "(15) 99757-1600",
+        },
+        {
+          name: "E-mail",
+          Icon: <Mail size={sizeIcon} className={styleIcon} />,
+          value: "marcio.felipe@aluno.ifsp.edu.br",
+        },
+      ],
+    },
+  },
   {
     name: "Gustavo Rafael Cardilho",
-    curriculumLatte: "http://lattes.cnpq.br/0000000000000000",
+    curriculumLatte: "https://lattes.cnpq.br/2488418666431997",
     linkedin: "https://www.linkedin.com/in/gustavo-rafael-cardilho-000000000/",
     image: imageGustavo,
     moreInformation: {
@@ -80,7 +103,7 @@ export const EquipeMock: InterfaceEquipeMock[] = [
     linkedin: "http://linkedin.com/in/joão-pedro-martins-de-oliveira-969712272",
     image: imageJoao,
     moreInformation: {
-      formation: "Cursando tecnico em informatica",
+      formation: "Cursando técnico em informatica",
       function: "Desenvolvedor web",
       contact: [
         {
@@ -94,6 +117,12 @@ export const EquipeMock: InterfaceEquipeMock[] = [
           value: "https://github.com/Martins-pedro23",
           isLink: true,
           mask: "Link",
+        },
+        
+        {
+          name: "Email",
+          Icon: <Mail size={sizeIcon} className={styleIcon} />,
+          value: "Martinsdeoliveira.pedro2@gmail.com",
         },
       ],
     },
