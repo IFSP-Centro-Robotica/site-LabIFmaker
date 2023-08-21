@@ -1,5 +1,5 @@
 import Image from "next/image";
-import background from "@/assets/OpeningFundo.png";
+import background from "@/assets/OpeningFundo.webp";
 import { ArchiveRestore, Lightbulb, Wrench } from "lucide-react";
 import { Description } from "./Description";
 

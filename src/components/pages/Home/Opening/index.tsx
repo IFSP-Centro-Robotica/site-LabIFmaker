@@ -1,4 +1,4 @@
-import OpeningImage from "@/assets/OpeningFundo.png";
+import OpeningImage from "@/assets/OpeningFundo.webp";
 import Image from "next/image";
 import LabIfLogo from "@/assets/LabIfLogo.png";
 

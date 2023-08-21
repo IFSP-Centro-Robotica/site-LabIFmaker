@@ -1,5 +1,5 @@
 import impressora3dEnderImage1 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-1.jpg";
-import impressora3dEnderImage2 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-2.png";
+import impressora3dEnderImage2 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-2.webp";
 import impressora3dEnderImage3 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-3.jpg";
 import impressora3dEnderProImage1 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-Pro-1.jpg";
 import impressora3dEnderProImage2 from "@/assets/equipamentos/Impressora-3D-Creality-Ender-3-Pro-2.jpg";
@@ -9,8 +9,8 @@ import impressoraFlsunImage2 from "@/assets/equipamentos/Impressora-flsun-2.jpg"
 import impressoraFlsunImage3 from "@/assets/equipamentos/Impressora-flsun-3.jpg";
 import mesaDigitalizadoraImage1 from "@/assets/equipamentos/Mesa-digitalizadora-1.webp";
 import mesaDigitalizadoraImage2 from "@/assets/equipamentos/Mesa-digitalizadora-2.webp";
-import maquinaLaser from "@/assets/equipamentos/Maquina-Laser.png";
-import arduino from "@/assets/equipamentos/arduino.png";
+import maquinaLaser from "@/assets/equipamentos/Maquina-Laser.webp";
+import arduino from "@/assets/equipamentos/arduino.webp";
 import { StaticImageData } from "next/image";
 
 interface ISlideImage {

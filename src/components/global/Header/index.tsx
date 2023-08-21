@@ -10,7 +10,7 @@ const buttonsStyle =
 
 export const HeaderComponent = () => {
   return (
-    <div className="w-full bg-primary flex sm:flex-row flex-col items-center justify-between pt-2 pb-2 gap-6">
+    <div className="w-full bg-primary flex sm:flex-row flex-col items-center justify-between px-4 pt-2 pb-2 gap-6">
       <div className="lg:w-1/2 w-full flex flex-row justify-between lg:p-0 px-6">
         <Link href="/">
           <Image src={LogoIF} alt="logo" className="w-auto h-12" />
