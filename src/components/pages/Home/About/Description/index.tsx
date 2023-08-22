@@ -8,7 +8,7 @@ export const Description = () => {
           O que é o Lab
           <span className="text-primary">IF</span> Maker?
         </h1>
-        <p className="font-montserrat text-xl text-justify">
+        <p className="font-montserrat text-xl text-justify hyphens-auto">
           O LabIF Maker é um espaço de produção criativa, onde os alunos, os
           servidores e a comunidade externa podem desenvolver projetos de forma
           colaborativa, utilizando ferramentas de fabricação digital, como
@@ -21,7 +21,7 @@ export const Description = () => {
           <div className="rounded-[50%] border border-spacing-1 border-zinc-400 flex items-center justify-center p-4 hover:bg-zinc-200 transition-colors">
             <Lightbulb size={60} className="text-primary " />
           </div>
-          <p className="font-montserrat text-xl text-justify">
+          <p className="font-montserrat text-xl text-justify hyphens-auto">
             Explore sua imaginação e crie projetos incríveis com o LabIF Maker.
             Deixe sua criatividade fluir e transforme suas ideias em realidade.{" "}
           </p>
@@ -30,9 +30,9 @@ export const Description = () => {
           <div className="rounded-[50%] border border-spacing-1 border-zinc-400 flex items-center justify-center p-4 hover:bg-zinc-200 transition-colors">
             <ArchiveRestore size={60} className="text-primary " />
           </div>
-          <p className="font-montserrat text-xl text-justify">
-            O laboratório disponibiliza todos os materiais necessários para a
-            produção dos projetos. após a conclusão do projeto, este poderá ser
+          <p className="font-montserrat text-xl text-justify hyphens-auto">
+            O laboratório disponibiliza todos os materiais ne&shy;ce&shy;ssários para a
+            pro&shy;dução dos projetos. após a con&shy;clusão do projeto, este poderá ser
             levado para casa.{" "}
           </p>
         </div>
@@ -40,10 +40,10 @@ export const Description = () => {
           <div className="rounded-[50%] border border-spacing-1 border-zinc-400 flex items-center justify-center p-4 hover:bg-zinc-200 transition-colors">
             <Wrench size={60} className="text-primary " />
           </div>
-          <p className="font-montserrat text-xl text-justify">
-            O LabIF Maker disponibiliza equipamentos modernos e de alta
-            qualidade para a produção dos projetos. Para que estes tenham a
-            melhor qualidade possível!{" "}
+          <p className="font-montserrat text-xl text-justify hyphens-auto">
+            O LabIF Maker dispo&shy;nibiliza equi&shy;pamen&shy;tos mo&shy;dernos e de alta
+            qualidade para a produção dos projetos. Para que estes te&shy;nham a
+            melhor qua&shy;lidade possível!{" "}
           </p>
         </div>
       </div>
