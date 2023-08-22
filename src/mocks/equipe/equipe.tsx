@@ -6,6 +6,8 @@ import imageJosi from "@/assets/equipe/josi.jpeg";
 import imageGustavo from "@/assets/equipe/gustavo.jpeg";
 import imageMarcio from "@/assets/equipe/marcio.jpeg";
 import imageVitor from "@/assets/equipe/vitor.jpeg";
+import imageCarlos from "@/assets/equipe/carlos.webp";
+import imageWilton from "@/assets/equipe/wilton.webp";
 
 export interface InterfaceEquipeMock {
   name: string;
@@ -39,6 +41,26 @@ const styleIcon = "text-primary";
 const sizeIcon = 25;
 
 export const EquipeMock: InterfaceEquipeMock[] = [
+  {
+    name: "Carlos H. S. Santos.",
+    curriculumLatte: "http://lattes.cnpq.br/2704773293662530",
+    linkedin: "https://www.linkedin.com/in/carlos-henrique-da-silva-santos-01424215/",
+    image: imageCarlos,
+    moreInformation: {
+      formation: "Dr. Engenharia Elétrica (2010) Unicamp.",
+      function: "Coordenador Associado.",
+    },
+  },
+  {
+    name: "Wilton Moreira Ferraz Junior.",
+    curriculumLatte: "http://lattes.cnpq.br/4328187599187471",
+    linkedin: "www.linkedin.com/in/wilton-moreira-ferraz-junior-62b35b28",
+    image: imageWilton,
+    moreInformation: {
+      formation: "Mestre em Ciência da Computação pela Universidade Federal de São Carlos (2015).",
+      function: "Professor EBTT, Coordenador de Estágios da área de Informática, Responsável pelo LABIF MAKER do IFSP Campus Itapetininga.",
+    },
+  },
   {
     name: "Josiane de Oliveira",
     curriculumLatte: "http://lattes.cnpq.br/0070059264743405",
