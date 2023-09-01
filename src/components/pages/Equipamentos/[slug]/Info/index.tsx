@@ -9,7 +9,7 @@ interface IProps {
 
 export const styleTextStrong = "font-ubuntu text-xl text-zinc-700";
 export const styledText =
-  "pt-2 font-montserrat  text-xl text-black text-justify";
+  "pt-2 font-montserrat  text-xl text-black text-justify hyphens-auto";
 export const styledLinks =
   "font-montserrat  text-blue-700 text-black ";
 

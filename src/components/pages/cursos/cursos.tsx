@@ -9,10 +9,12 @@ export const Courses = () => {
           Cursos
         </h1>
       </div>
-      {CourseMock &&
-        CourseMock.map((course) => (
-          <CardComponentCourse props={course} key={course.name} />
-        ))}
+      <section className="w-full flex items-center justify-center flex-row gap-4 ">
+        {CourseMock &&
+          CourseMock.map((course) => (
+            <CardComponentCourse props={course} key={course.name} />
+          ))}
+      </section>
     </section>
   );
 };
