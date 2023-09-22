@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="20cm"
+   height="20cm"
+   sodipodi:docname="LabIFMaker4.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="PORT_NORMATIVA_RET_050_Aprova Regimento LabIFMaker_Espaço de Inovação do IFSP_INOVA"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,1122.52)">
+    <rect
+       style="fill:#fff;stroke-width:0.806351;stroke-linecap:round;paint-order:stroke fill markers"
+       id="rect3804"
+       width="300"
+       height="300"
+
+       transform="scale(1,-1)" />
+    <g
+       id="g2152"
+       transform="matrix(1.48679,0,0,1.5751569,-335.84939,-342.96487)"
+       inkscape:export-filename="LabIFMaker2..png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"
+>
+      <g
+         id="g2145"
+         transform="translate(-379.18573,36.23122)"
+>
+        <g
+           id="g1961"
+  >
+          <path
+             id="path295"
+             style="fill:#212121;fill-opacity:1;stroke:none;stroke-width:0.198465;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+             d="m 682.61182,647.95882 c -9.80726,-26.07469 -29.02285,-46.20115 -50.03637,-46.47177 -16.40019,-0.21122 -24.08345,22.44703 -14.42751,48.57813 9.65593,26.13111 32.29208,45.62719 48.69363,45.62719 16.40156,0 26.18358,-20.04747 15.77025,-47.73355 z"
+             sodipodi:nodetypes="sssss" />
+          <path
+             style="fill:#212121;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 711.00895,624.51323 c -9.72978,5.72858 -9.19705,9.71009 -9.20986,18.26223 l 0.43779,52.52376 c -0.40156,11.54795 5.88383,7.75201 12.0159,3.90369 l 42.9652,-24.8508 c 11.03736,-6.39912 12.31557,-7.94455 12.05196,-23.19653 l -0.51555,-49.46748 c -0.13348,-8.7909 -1.90371,-10.44699 -11.07152,-4.7574 z"
+             id="path485"
+             sodipodi:nodetypes="ccccccccc" />
+          <path
+             style="fill:#212121;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 701.07314,541.2329 c -9.85776,-5.50544 -13.02535,-3.0351 -20.41351,1.27236 l -45.11432,26.90048 c -10.17027,5.4847 -3.71995,8.99306 2.69817,12.34264 l 43.1456,24.53624 c 11.09681,6.29546 13.07619,6.61835 26.10767,-1.31088 l 42.43705,-25.42429 c 7.52038,-4.5543 8.05592,-6.91852 -1.48441,-11.95859 z"
+             id="path487"
+             sodipodi:nodetypes="ccccccccc" />
+        </g>
+      </g>
+    </g>
+    
+  </g>
+</svg>
