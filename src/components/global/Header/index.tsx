@@ -69,7 +69,7 @@ const linksStyle =
 export const HeaderComponent = () => {
   return (
     <div className="w-full bg-primary flex sm:flex-row flex-col justify-center items-center  px-4 pt-2 pb-2 gap-6">
-      <div className="lg:w-1/2 w-full flex flex-row lg:justify-between justify-start lg:p-0 px-6">
+      <div className="lg:w-1/2 w-full flex flex-row lg:justify-center justify-between lg:p-0 px-6">
         <Link href="/">
           <Image src={LogoIF} alt="logo" className="w-auto h-12" />
         </Link>
