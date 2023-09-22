@@ -24,7 +24,6 @@ import {
   ExternalLink,
 } from "lucide-react";
 
-
 const paths = [
   {
     name: "Inicio",
@@ -70,7 +69,7 @@ const linksStyle =
 export const HeaderComponent = () => {
   return (
     <div className="w-full bg-primary flex sm:flex-row flex-col justify-center items-center  px-4 pt-2 pb-2 gap-6">
-      <div className="lg:w-1/2 w-full flex flex-row lg:justify-center justify-start lg:p-0 px-6">
+      <div className="lg:w-1/2 w-full flex flex-row lg:justify-between justify-start lg:p-0 px-6">
         <Link href="/">
           <Image src={LogoIF} alt="logo" className="w-auto h-12" />
         </Link>
@@ -133,7 +132,10 @@ export const HeaderComponent = () => {
                     </NavigationMenuLink>
                   </li>
                   {paths.map((item, index) => (
-                    <div className="w-full flex flex-col" key={`nav-link-map-${index}`}>
+                    <div
+                      className="w-full flex flex-col"
+                      key={`nav-link-map-${index}`}
+                    >
                       <Link
                         href={item.path}
                         title={item.title}
@@ -162,14 +164,18 @@ export const HeaderComponent = () => {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
-            <NavigationMenuItem >
+            <NavigationMenuItem>
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdGAPut5VFQ6uNyNjfLxX-LiTJvQuL3a4ciRPAOb66dJcvBlQ/viewform?usp=sf_link"
                 legacyBehavior
                 passHref
-                
               >
-                <NavigationMenuLink className={navigationMenuTriggerStyle() + " bg-primary-light-100 hover:bg-primary-light-100 font-montserrat font-semibold text-lg text-white flex flex-row gap-2"} >
+                <NavigationMenuLink
+                  className={
+                    navigationMenuTriggerStyle() +
+                    " bg-primary-light-100 hover:bg-primary-light-100 font-montserrat font-semibold text-lg text-white flex flex-row gap-2"
+                  }
+                >
                   <ExternalLink />
                   Agendamento
                 </NavigationMenuLink>
