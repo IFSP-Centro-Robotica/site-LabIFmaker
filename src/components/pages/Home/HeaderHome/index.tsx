@@ -169,7 +169,8 @@ export const HeaderHome = () => {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
-            <NavigationMenuItem>
+            {/*
+              <NavigationMenuItem>
               <NavigationMenuTrigger className="bg-primary-light-100 hover:bg-primary-light-100 font-montserrat font-semibold text-lg text-white">
                 Outros
               </NavigationMenuTrigger>
@@ -179,6 +180,7 @@ export const HeaderHome = () => {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
+            */}
             <NavigationMenuItem>
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdGAPut5VFQ6uNyNjfLxX-LiTJvQuL3a4ciRPAOb66dJcvBlQ/viewform?usp=sf_link"

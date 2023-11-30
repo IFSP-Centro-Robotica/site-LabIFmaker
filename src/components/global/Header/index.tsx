@@ -154,16 +154,17 @@ export const HeaderComponent = () => {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
+            {/* 
             <NavigationMenuItem>
               <NavigationMenuTrigger className="bg-primary-light-100 hover:bg-primary-light-100 font-montserrat font-semibold text-lg text-white">
                 Outros
               </NavigationMenuTrigger>
-              <NavigationMenuContent>
+              <NavigationMenuContent>s
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                   <h1 className={linksStyle}>Documentação</h1>
                 </ul>
               </NavigationMenuContent>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
             <NavigationMenuItem>
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdGAPut5VFQ6uNyNjfLxX-LiTJvQuL3a4ciRPAOb66dJcvBlQ/viewform?usp=sf_link"
