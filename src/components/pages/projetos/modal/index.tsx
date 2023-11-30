@@ -11,6 +11,7 @@ import {
 import { InterfaceProjectsMock } from "@/mocks/projects/projects";
 import { Separator } from "@radix-ui/react-separator";
 
+
 interface IProps {
   props: InterfaceProjectsMock;
 }
@@ -21,12 +22,12 @@ export const ModalComponentProject = ({ props }: IProps) => {
       <DialogTrigger className="sm:w-fit text-xl bg-primary text-white text-center font-montserrat font-bold px-4 py-2 rounded">
         Mais informações
       </DialogTrigger>
-      <DialogContent className="sm:w-fit w-[90%] ">
+      <DialogContent className="sm:w-auto w-[90%] max-h-[95vh] overflow-scroll border border-primary lg:border-transparent rounded-lg">
         <DialogHeader>
           <DialogTitle className="text-center text-3xl font-montserrat font-bold text-primary mb-4">
             {props.name}
           </DialogTitle>
-          <DialogDescription className="w-full flex items-start justify-center flex-col gap-2">
+          <DialogDescription className="w-full flex items-start justify-center flex-col gap-2 text-justify">
             <p className="text-xl text-black font-montserrat font-bold">
               Descrição:{" "}
               <span className="text-zinc-600">{props.description}</span>

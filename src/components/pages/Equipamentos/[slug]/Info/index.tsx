@@ -1,7 +1,7 @@
 import { equipamentFields } from "@/mocks/equipaments/equipament";
-import { notFound, redirect } from "next/navigation";
-import { SlideComponent } from "./slide";
+import { notFound } from "next/navigation";
 import { ContentComponent } from "./content";
+import { SlideComponent } from "./slide";
 
 interface IProps {
   slug: string;
@@ -10,8 +10,7 @@ interface IProps {
 export const styleTextStrong = "font-ubuntu text-xl text-zinc-700";
 export const styledText =
   "pt-2 font-montserrat  text-xl text-black text-justify hyphens-auto";
-export const styledLinks =
-  "font-montserrat  text-blue-700 text-black ";
+export const styledLinks = "font-montserrat  text-blue-700 text-black ";
 
 const handleSearchEquipament = async (slug: string) => {
   try {
@@ -37,7 +36,7 @@ export const InfoEquipamentosIndividual = async ({ slug }: IProps) => {
               {equipament.title}
             </h1>
           </div>
-          <div className="w-full h-full flex flex-row gap-2 p-6 justify-center flex-wrap ">
+          <div className="w-full h-full flex flex-row gap-12 p-6 justify-center flex-wrap ">
             <div className="2xl:max-w-2xl xl:max-w-xl lg:max-w-lg max-w-full max-h-[600px]">
               <SlideComponent data={equipament} />
             </div>

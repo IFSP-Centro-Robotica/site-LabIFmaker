@@ -9,7 +9,6 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { InterfaceCoursesMock } from "@/mocks/courses/courses";
-import { Link } from "lucide-react";
 
 interface IProps {
   name: string;
@@ -19,10 +18,10 @@ interface IProps {
 export const ModalComponentCourse = ({ props, name }: IProps) => {
   return (
     <Dialog>
-      <DialogTrigger className="sm:w-fit  text-xl bg-primary text-white text-center font-montserrat font-bold px-4 py-2 rounded">
+      <DialogTrigger className="sm:w-auto w-auto  text-xl bg-primary text-white text-center font-montserrat font-bold px-4 py-2 rounded">
         Mais informações
       </DialogTrigger>
-      <DialogContent className="sm:w-fit w-[90%] ">
+      <DialogContent className="sm:w-auto w-[90%] max-h-[95vh] overflow-scroll border border-primary lg:border-transparent rounded-lg">
         <DialogHeader className="pt-6">
           <DialogTitle className="justify-center text-center sm:text-3xl text-2xl font-montserrat font-bold text-primary mb-4 flex-wrap">
             {name}

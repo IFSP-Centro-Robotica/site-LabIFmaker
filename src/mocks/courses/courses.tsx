@@ -15,7 +15,7 @@ export const CourseMock: InterfaceCoursesMock[] = [
       O segundo módulo trata da Impressão 3D, composto por seis aulas abrangentes e demonstrativas, centradas nas funcionalidades do software Ultimaker Cura. 
       Esse programa é especializado no processo de fatiamento de desenhos 3D para prepará-los visando à impressão física.
       Ao concluir o curso através da plataforma Moodle, os professores terão o certificado atestando a conclusão curso.`,
-    link: "https://www.youtube.com/watch?v=Dj9qJsJTsjQ",
+    link: "",
     moodleLink: "https://moodle.itp.ifsp.edu.br/login/index.php",
   },
 ];

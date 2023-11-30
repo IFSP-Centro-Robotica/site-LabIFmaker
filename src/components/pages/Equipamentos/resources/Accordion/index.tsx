@@ -21,7 +21,7 @@ export const ResourcesAccordion = ({
           <AccordionContent className=" flex flex-col">
             {resourcesFields.map((resource) => (
               <div
-                className=" flex flex-row gap-2 my-6 justify-start items-center"
+                className=" w-full flex flex-row gap-2 my-6 justify-start items-center"
                 key={resource.description}
               >
                 <div className="h-30 w-30">
@@ -38,3 +38,5 @@ export const ResourcesAccordion = ({
     </div>
   );
 };
+
+

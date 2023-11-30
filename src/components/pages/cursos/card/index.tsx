@@ -1,7 +1,7 @@
 "use client";
 
 import { InterfaceCoursesMock } from "@/mocks/courses/courses";
-import { Link } from "lucide-react";
+import { XCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 import { ModalComponentCourse } from "../Modal";
 
@@ -29,13 +29,22 @@ export const CardComponentCourse = ({ props }: IProps) => {
         <h1 className="text-3xl font-montserrat font-bold lg:text-start text-center">
           {props.name}
         </h1>
-        <iframe
-          className="lg:h-[500px] sm:h-[400px] h-[250px] w-full"
-          src={link}
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
+        {props.link ? (
+          <iframe
+            className="lg:h-[500px] sm:h-[400px] h-[250px] w-full"
+            src={link}
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        ) : (
+          <div className="w-full lg:h-[500px] sm:h-[400px] h-[250px] bg-zinc-200 rounded p-2 flex items-center justify-center flex-col gap-2">
+            <XCircle className="text-primary" size={120} />
+            <p className="text-2xl text-center font-montserrat font-bold">
+              Vídeo não encontrado!!
+            </p>
+          </div>
+        )}
         <ModalComponentCourse name={props.name} props={props} />
       </div>
     </div>

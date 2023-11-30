@@ -4,7 +4,7 @@ export interface InterfaceProjectsMock {
   name: string;
   description: string;
   authors: string[];
-  image: StaticImageData;
+  image?: StaticImageData;
   status: "Ativo" | "Finalizado";
 }
 
@@ -28,7 +28,7 @@ export const ProjectMock: InterfaceProjectsMock[] = [
                   Além do oferecimento de oficinas presenciais para os professores alcançarem o sucesso na incorporação dessas ferramentas
                   inovadoras em seus ambientes de ensino.`,
     authors: ["Josiane de Oliveira"],
-    image: LabIF,
+
     status: "Ativo",
   },
   {
@@ -37,14 +37,14 @@ export const ProjectMock: InterfaceProjectsMock[] = [
                   de produção relativamente baixo, e que seja sustentável, de maneira que interaja com o solo, molhando-o
                   quando for necessário.`,
     authors: ["Márcio Felipe Ribeiro Vieira dos Santos"],
-    image: LabIF,
+
     status: "Ativo",
   },
   {
     name: "Hello2Code e Hello2Code Kids (Hello Yotta)",
     description: `O projeto busca Desenvolvolver uma plataforma de programação em blocos (Hello2Code) para o kit de robótica HY-01 da Hello Yotta.`,
     authors: [" Vitor Gabriel de Aquino "],
-    image: LabIF,
+
     status: "Ativo",
   },
 ];

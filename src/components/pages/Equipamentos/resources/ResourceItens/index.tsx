@@ -11,7 +11,7 @@ export const ResourceItens = ({
         {resourcesFields.map((resource) => (
           <div
             key={resource.description}
-            className={`w-full flex xl:flex-row flex-col xl:text-start text-center gap-4 items-center hover:bg-primary-light/800 transition-colors rounded p-4 cursor-default sm:border-none border-b border-primary `}
+            className={`w-full flex xl:flex-row flex-col xl:text-start text-center gap-4 items-center hover:border-primary border border-transparent transition-colors rounded p-4 cursor-default sm:border-none border-b   `}
           >
             <div className="h-30 w-10">
               <resource.icon />

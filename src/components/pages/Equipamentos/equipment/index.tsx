@@ -1,6 +1,9 @@
+"use client";
+
 import { equipamentFields } from "@/mocks/equipaments/equipament";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const equipamentStyle = "rounded";
 
@@ -8,7 +11,7 @@ export const EquipamentEquipamentos = () => {
   return (
     <section className="w-full flex flex-row pr-4 pl-4 pt-8 pb-8 flex-wrap gap-8 items-center justify-center">
       {equipamentFields.map((equipament) => (
-        <div
+        <motion.div
           key={equipament.slug}
           className="max-w-[380px] bg-white p-6 rounded border border-spacing-1 border-primary transition flex flex-col items-center gap-4 hover:shadow-2xl"
         >
@@ -30,7 +33,7 @@ export const EquipamentEquipamentos = () => {
           >
             Acessar
           </Link>
-        </div>
+        </motion.div>
       ))}
     </section>
   );
