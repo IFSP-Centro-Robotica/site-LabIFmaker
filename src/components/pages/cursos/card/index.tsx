@@ -14,6 +14,10 @@ export const CardComponentCourse = ({ props }: IProps) => {
 
   useEffect(() => {
     if (props && props.link) {
+      if (props.linkIsEmbed){
+        setLink(props.link);
+        return;
+      }
       let code;
       const indexOfCheck = props.link.indexOf("?v=");
       if (indexOfCheck >= 0) {
