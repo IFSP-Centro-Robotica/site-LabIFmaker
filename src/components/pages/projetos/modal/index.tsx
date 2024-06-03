@@ -11,7 +11,6 @@ import {
 import { InterfaceProjectsMock } from "@/mocks/projects/projects";
 import { Separator } from "@radix-ui/react-separator";
 
-
 interface IProps {
   props: InterfaceProjectsMock;
 }

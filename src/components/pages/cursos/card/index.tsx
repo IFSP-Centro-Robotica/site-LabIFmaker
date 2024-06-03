@@ -14,7 +14,7 @@ export const CardComponentCourse = ({ props }: IProps) => {
 
   useEffect(() => {
     if (props && props.link) {
-      if (props.linkIsEmbed){
+      if (props.linkIsEmbed) {
         setLink(props.link);
         return;
       }

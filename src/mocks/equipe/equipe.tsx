@@ -44,7 +44,8 @@ export const EquipeMock: InterfaceEquipeMock[] = [
   {
     name: "Carlos H. S. Santos.",
     curriculumLatte: "http://lattes.cnpq.br/2704773293662530",
-    linkedin: "https://www.linkedin.com/in/carlos-henrique-da-silva-santos-01424215/",
+    linkedin:
+      "https://www.linkedin.com/in/carlos-henrique-da-silva-santos-01424215/",
     image: imageCarlos,
     moreInformation: {
       formation: "Dr. Engenharia Elétrica (2010) Unicamp.",
@@ -57,8 +58,10 @@ export const EquipeMock: InterfaceEquipeMock[] = [
     linkedin: "www.linkedin.com/in/wilton-moreira-ferraz-junior-62b35b28",
     image: imageWilton,
     moreInformation: {
-      formation: "Mestre em Ciência da Computação pela Universidade Federal de São Carlos (2015).",
-      function: "Professor EBTT, Coordenador de Estágios da área de Informática, Responsável pelo LABIF MAKER do IFSP Campus Itapetininga.",
+      formation:
+        "Mestre em Ciência da Computação pela Universidade Federal de São Carlos (2015).",
+      function:
+        "Professor EBTT, Coordenador de Estágios da área de Informática, Responsável pelo LABIF MAKER do IFSP Campus Itapetininga.",
     },
   },
   {
@@ -140,7 +143,7 @@ export const EquipeMock: InterfaceEquipeMock[] = [
           isLink: true,
           mask: "Link",
         },
-        
+
         {
           name: "Email",
           Icon: <Mail size={sizeIcon} className={styleIcon} />,
@@ -149,7 +152,7 @@ export const EquipeMock: InterfaceEquipeMock[] = [
       ],
     },
   },
-  
+
   {
     name: "Vitor Gabriel de Aquino ",
     curriculumLatte: "http://lattes.cnpq.br/5228128646264132",

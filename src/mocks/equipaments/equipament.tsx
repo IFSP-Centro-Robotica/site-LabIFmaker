@@ -360,7 +360,8 @@ export const equipamentFields: IEquipamentFields[] = [
       },
       softwares: {
         title: "Softwares para utilização: ",
-        softwares: "Adobe Photoshop, InkScape, Gimp dentre outros softwares de desenho e edição de imagem.",
+        softwares:
+          "Adobe Photoshop, InkScape, Gimp dentre outros softwares de desenho e edição de imagem.",
       },
       extensions: {
         title: "Extenções de arquivos suportadas: ",

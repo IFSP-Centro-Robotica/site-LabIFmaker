@@ -49,10 +49,14 @@ export const ProjectMock: InterfaceProjectsMock[] = [
   },
 
   {
-    name: "Educação sexual como combate ao abuso sexual infantil.", 
-    description: ` O objetivo deste trabalho é construir um instrumento lúdico para ser utilizado como ferramenta de apoio às aulas sobre educação sexual com base em dados e números de abusos cometidos contra crianças e quais consequências esse ato pode causar para o futuro do indivíduo.`,	
-    authors: ["Beatriz de Souza Cardoso ", "Jennefer Coutinho França ", "Jhennifer Carine dos Santos Lemes"],
+    name: "Educação sexual como combate ao abuso sexual infantil.",
+    description: ` O objetivo deste trabalho é construir um instrumento lúdico para ser utilizado como ferramenta de apoio às aulas sobre educação sexual com base em dados e números de abusos cometidos contra crianças e quais consequências esse ato pode causar para o futuro do indivíduo.`,
+    authors: [
+      "Beatriz de Souza Cardoso ",
+      "Jennefer Coutinho França ",
+      "Jhennifer Carine dos Santos Lemes",
+    ],
 
     status: "Finalizado",
-  }
+  },
 ];

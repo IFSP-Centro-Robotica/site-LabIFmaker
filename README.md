@@ -14,8 +14,6 @@ Tecnologias
 
 <br/></h1>
 
-
-
 <h1 align="center"><br/>Instalação<br/><br/></h1>
 
 !! Este projeto utiliza o npm !!
